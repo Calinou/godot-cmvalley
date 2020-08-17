@@ -1,0 +1,826 @@
+# mtl file of Cube 2 level
+
+newmtl slot1
+map_Kd textures/default.png
+
+newmtl slot2
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot3
+map_Kd ik2k/ik_floor_brick128a.jpg
+
+newmtl slot4
+map_Kd ik2k/ik_floor_wood128b.jpg
+
+newmtl slot5
+map_Kd ik2k/ik_ground_cobbles128.jpg
+
+newmtl slot6
+map_Kd ik2k/ik_brick_3216d.jpg
+
+newmtl slot8
+map_Kd dg/floor_grass1.jpg
+
+newmtl slot9
+map_Kd dg/floor_grass3&soil.jpg
+
+newmtl slot10
+map_Kd dg/floor_pavement_stone4_2.jpg
+
+newmtl slot11
+map_Kd dg/floor_pavement_stone4_3.jpg
+
+newmtl slot12
+map_Kd dg/floor_pavement_stone4_4moss.jpg
+
+newmtl slot13
+map_Kd dg/floor_pavement_stone5_2.jpg
+
+newmtl slot14
+map_Kd dg/floor_pavement_stone_four2.jpg
+
+newmtl slot15
+map_Kd dg/floor_pavingStone.jpg
+
+newmtl slot16
+map_Kd dg/floor_pavingStone_ceramic.jpg
+
+newmtl slot17
+map_Kd dg/floor_paving_littleStones3.jpg
+
+newmtl slot18
+map_Kd dg/floor_paving_littleStones3_2.jpg
+
+newmtl slot20
+map_Kd dg/floor_soil&grave3.jpg
+
+newmtl slot23
+map_Kd dg/mad065.jpg
+
+newmtl slot24
+map_Kd dg/mad065.jpg
+
+newmtl slot25
+map_Kd dg/mad063.jpg
+
+newmtl slot28
+map_Kd dg/mur078.jpg
+
+newmtl slot29
+map_Kd dg/mur067.jpg
+
+newmtl slot30
+map_Kd dg/mur142.jpg
+
+newmtl slot31
+map_Kd dg/muv158.jpg
+
+newmtl slot36
+map_Kd dg/sup079.jpg
+
+newmtl slot53
+map_Kd tech1soc/032-15b.jpg
+
+newmtl slot92
+map_Kd tech1soc/matbrown_lgt2.jpg
+
+newmtl slot93
+map_Kd tech1soc/met_wall01a.jpg
+
+newmtl slot109
+map_Kd tech1soc/s128-02b.jpg
+
+newmtl slot119
+map_Kd ik2k/ik_brickwall_gry.jpg
+
+newmtl slot120
+map_Kd ik2k/ik_brick_6432a.jpg
+
+newmtl slot121
+map_Kd ik2k/ik_brick_6464a.jpg
+
+newmtl slot123
+map_Kd ik2k/ik_brick_12864a.jpg
+
+newmtl slot128
+map_Kd ik2k/ik_floor_wood128d.jpg
+
+newmtl slot129
+map_Kd ik2k/ik_ground_deadgrass128.jpg
+
+newmtl slot130
+map_Kd ik2k/ik_ground_grass128.jpg
+
+newmtl slot131
+map_Kd ik2k/ik_ground_lawn128.jpg
+
+newmtl slot133
+map_Kd ik2k/ik_ground_pebbles128.jpg
+
+newmtl slot135
+map_Kd ik2k/ik_tree128moss.jpg
+
+newmtl slot136
+map_Kd ik2k/ik_woodv256a.jpg
+
+newmtl slot138
+map_Kd ik2k/ik_wood_planks128b.jpg
+
+newmtl slot139
+map_Kd ik2k/ik_wood_planks128d.jpg
+
+newmtl slot140
+map_Kd ik2k/ik_wood_trimh64d.jpg
+
+newmtl slot141
+map_Kd ik2k/ik_wood_trimh64e.jpg
+
+newmtl slot143
+map_Kd ik2k/ik_wpaperplain128b.jpg
+
+newmtl slot144
+map_Kd ik2k/ik_wpaperplain128c.jpg
+
+newmtl slot145
+map_Kd ik2k/ik_wpaperplain128d.jpg
+
+newmtl slot146
+map_Kd ik2k/ik_wpaperplain128e.jpg
+
+newmtl slot148
+map_Kd ikbase/ik_cwall03a2.jpg
+
+newmtl slot152
+map_Kd ikbase/ik_floor_conc128b.jpg
+
+newmtl slot153
+map_Kd ikbase/ik_floor_met1f.jpg
+
+newmtl slot163
+map_Kd ikbase/ik_gtrimv_lit2b.jpg
+
+newmtl slot171
+map_Kd ikbase/ik_itrimv_128b.jpg
+
+newmtl slot189
+map_Kd payne/Brick58_512x512.jpg
+
+newmtl slot192
+map_Kd payne/Tile28b.jpg
+
+newmtl slot193
+map_Kd payne/Tile41a.jpg
+
+newmtl slot194
+map_Kd than_ind/floor02.jpg
+
+newmtl slot197
+map_Kd than_ind/light03.jpg
+
+newmtl slot238
+map_Kd egyptsoc/block01a.jpg
+
+newmtl slot240
+map_Kd egyptsoc/block01d.jpg
+
+newmtl slot243
+map_Kd egyptsoc/lig_032-01b1.jpg
+
+newmtl slot261
+map_Kd egyptsoc/stone01a.jpg
+
+newmtl slot268
+map_Kd egyptsoc/wood17.jpg
+
+newmtl slot278
+map_Kd egyptsoc/block02b.jpg
+
+newmtl slot282
+map_Kd egyptsoc/stone01d.jpg
+
+newmtl slot284
+map_Kd egyptsoc/stone03d.jpg
+
+newmtl slot317
+map_Kd rorschach/256_gate_rock07.jpg
+
+newmtl slot318
+map_Kd rorschach/256_gate_water02.jpg
+
+newmtl slot320
+map_Kd rorschach/256_iv_floor02.jpg
+
+newmtl slot326
+map_Kd rorschach/2_256_red_thin02.jpg
+
+newmtl slot328
+map_Kd rorschach/2_32_red_thin02.jpg
+
+newmtl slot329
+map_Kd rorschach/2_conc_celing01.jpg
+
+newmtl slot348
+map_Kd rorschach/3r_metblock01.jpg
+
+newmtl slot350
+map_Kd rorschach/4_conc_floor01.jpg
+
+newmtl slot353
+map_Kd rorschach/5_blood01.jpg
+
+newmtl slot354
+map_Kd rorschach/5_bricks01.jpg
+
+newmtl slot357
+map_Kd rorschach/5_slabfloor.jpg
+
+newmtl slot374
+map_Kd subverse/crate_space_vents.jpg
+
+newmtl slot376
+map_Kd subverse/flat_rocks.jpg
+
+newmtl slot380
+map_Kd subverse/puzzel_block.jpg
+
+newmtl slot381
+map_Kd subverse/rock_vinelike.jpg
+
+newmtl slot383
+map_Kd subverse/stone_path.jpg
+
+newmtl slot384
+map_Kd subverse/wood_crate_05.jpg
+
+newmtl slot388
+map_Kd g_pack/g-bricks05.jpg
+
+newmtl slot390
+map_Kd g_pack/g-bricks10.jpg
+
+newmtl slot399
+map_Kd g_pack/g-floor04.jpg
+
+newmtl slot400
+map_Kd g_pack/g-floor10.jpg
+
+newmtl slot402
+map_Kd g_pack/g-metbas5b.jpg
+
+newmtl slot414
+map_Kd lunaran/bigmet2_d.jpg
+
+newmtl slot416
+map_Kd lunaran/box1b_d.jpg
+
+newmtl slot417
+map_Kd lunaran/glue1_d.jpg
+
+newmtl slot421
+map_Kd lunaran/hexflr1_d.jpg
+
+newmtl slot424
+map_Kd lunaran/panel128_1_d.jpg
+
+newmtl slot554
+map_Kd philipk/pk01_pan_floor02b_d.jpg
+
+newmtl slot593
+map_Kd gor/WS_GK_001_cc.jpg
+
+newmtl slot596
+map_Kd gor/GR_GK_003_cc.jpg
+
+newmtl slot598
+map_Kd gor/GR_GK_005_cc.jpg
+
+newmtl slot599
+map_Kd gor/GR_GK_006_cc.jpg
+
+newmtl slot600
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot607
+map_Kd gor/ST_GK_003_cc.jpg
+
+newmtl slot612
+map_Kd gor/ST_GK_007_cc.jpg
+
+newmtl slot619
+map_Kd gor/WT_GK_003_cc.jpg
+
+newmtl slot625
+map_Kd gor/WT_GK_005_cc.jpg
+
+newmtl slot627
+map_Kd gor/WT_GK_007_cc.jpg
+
+newmtl slot634
+map_Kd gor/ST_GK_010_cc.jpg
+
+newmtl slot635
+map_Kd gor/WT_GK_010_cc.jpg
+
+newmtl slot638
+map_Kd gor/WT_GK_013_cc.jpg
+
+newmtl slot639
+map_Kd gor/WT_GK_014_cc.jpg
+
+newmtl slot641
+map_Kd gor/WT_GK_016_cc.jpg
+
+newmtl slot642
+map_Kd gor/WT_GK_017_cc.jpg
+
+newmtl slot644
+map_Kd gor/ME_GK_012_cc.jpg
+
+newmtl slot645
+map_Kd gor/ME_GK_010_cc.jpg
+
+newmtl slot646
+map_Kd aftas/par11.jpg
+
+newmtl slot649
+map_Kd aftas/par10_a.jpg
+
+newmtl slot652
+map_Kd aftas/piso2.jpg
+
+newmtl slot655
+map_Kd aftas/caibro1.jpg
+
+newmtl slot662
+map_Kd mitaman/mm-tile38.jpg
+
+newmtl slot670
+map_Kd mitaman/mm-metalbase2.jpg
+
+newmtl slot673
+map_Kd mitaman/mm-brick13.jpg
+
+newmtl slot676
+map_Kd mitaman/mm-metalbase3.jpg
+
+newmtl slot685
+map_Kd mitaman/mm-wood02_fade.jpg
+
+newmtl slot686
+map_Kd mitaman/mm-planksnew01.jpg
+
+newmtl slot692
+map_Kd mitaman/mm-brick56.jpg
+
+newmtl slot700
+map_Kd mitaman/mm-wood-worn.jpg
+
+newmtl slot701
+map_Kd mitaman/mm-wood-worn.jpg
+
+newmtl slot702
+map_Kd mitaman/mm-wood02_fade.jpg
+
+newmtl slot704
+map_Kd mitaman/mm-bricksmall121.jpg
+
+newmtl slot706
+map_Kd mitaman/mm-ceilinglite1.jpg
+
+newmtl slot708
+map_Kd mitaman/mm-stoneroof1.jpg
+
+newmtl slot710
+map_Kd mitaman/mm-cementbase1.jpg
+
+newmtl slot714
+map_Kd mitaman/mm-metalbase1.jpg
+
+newmtl slot724
+map_Kd mitaman/mm-metaltrim02.jpg
+
+newmtl slot725
+map_Kd mitaman/mm-metaltrim02.jpg
+
+newmtl slot728
+map_Kd mitaman/mm-planksnew01.jpg
+
+newmtl slot734
+map_Kd mitaman/mm-grassdead42.jpg
+
+newmtl slot736
+map_Kd noctua/plast07.jpg
+
+newmtl slot737
+map_Kd noctua/planks01.jpg
+
+newmtl slot738
+map_Kd noctua/planks01.jpg
+
+newmtl slot741
+map_Kd noctua/conc01.jpg
+
+newmtl slot742
+map_Kd noctua/conc01.jpg
+
+newmtl slot743
+map_Kd loopix/cobbst2.jpg
+
+newmtl slot746
+map_Kd g_pack/g-concrete05.jpg
+
+newmtl slot747
+map_Kd textures/nieb/rock01.jpg
+
+newmtl slot761
+map_Kd tomek/snow2_d.jpg
+
+newmtl slot762
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot763
+map_Kd tomek/snow8_d.jpg
+
+newmtl slot765
+map_Kd textures/nieb/floor1.jpg
+
+newmtl slot768
+map_Kd textures/nieb/rock02.jpg
+
+newmtl slot769
+map_Kd textures/nieb/sand01.jpg
+
+newmtl slot770
+map_Kd textures/nieb/sand02.jpg
+
+newmtl slot771
+map_Kd textures/nieb/concrete-tan.jpg
+
+newmtl slot772
+map_Kd textures/nieb/concrete-red.jpg
+
+newmtl slot773
+map_Kd textures/nieb/brick-tan.jpg
+
+newmtl slot774
+map_Kd textures/nieb/brick-red.jpg
+
+newmtl slot775
+map_Kd textures/nieb/concrete-light.jpg
+
+newmtl slot776
+map_Kd textures/nieb/concrete-dark.jpg
+
+newmtl slot777
+map_Kd textures/nieb/rubber-trim.jpg
+
+newmtl slot779
+map_Kd textures/nieb/metal-orange.jpg
+
+newmtl slot780
+map_Kd textures/nieb/metal-grey.jpg
+
+newmtl slot781
+map_Kd textures/nieb/metal-door.jpg
+
+newmtl slot782
+map_Kd textures/nieb/box1.jpg
+
+newmtl slot783
+map_Kd textures/nieb/box2.jpg
+
+newmtl slot784
+map_Kd textures/nieb/stripes.jpg
+
+newmtl slot800
+map_Kd textures/nieb/stone1.jpg
+
+newmtl slot801
+map_Kd textures/nieb/stone1b.jpg
+
+newmtl slot803
+map_Kd textures/nieb/stone3.jpg
+
+newmtl slot804
+map_Kd textures/nieb/rough1.jpg
+
+newmtl slot805
+map_Kd trak5/glass.jpg
+
+newmtl slot812
+map_Kd trak5/light2a.jpg
+
+newmtl slot813
+map_Kd trak5/base1a.jpg
+
+newmtl slot814
+map_Kd trak5/base1b.jpg
+
+newmtl slot815
+map_Kd trak5/base1c.jpg
+
+newmtl slot828
+map_Kd trak5/pits1a.jpg
+
+newmtl slot831
+map_Kd trak5/pipe1a.jpg
+
+newmtl slot832
+map_Kd trak5/pipe1b.jpg
+
+newmtl slot833
+map_Kd trak5/pipe1c.jpg
+
+newmtl slot834
+map_Kd trak5/pipe1d.jpg
+
+newmtl slot1028
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1029
+map_Kd gor/WT_GK_017_cc.jpg
+
+newmtl slot1030
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1031
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1032
+map_Kd rorschach/3r_metblock01.jpg
+
+newmtl slot1033
+map_Kd mitaman/mm-wood02_fade.jpg
+
+newmtl slot1034
+map_Kd ik2k/ik_brickwall_gry.jpg
+
+newmtl slot1035
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1036
+map_Kd textures/nieb/concrete-tan.jpg
+
+newmtl slot1037
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot1039
+map_Kd mitaman/mm-wood-worn.jpg
+
+newmtl slot1040
+map_Kd trak5/pipe1d.jpg
+
+newmtl slot1042
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot1043
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1044
+map_Kd egyptsoc/stone01a.jpg
+
+newmtl slot1045
+map_Kd egyptsoc/block01a.jpg
+
+newmtl slot1046
+map_Kd textures/default.png
+
+newmtl slot1047
+map_Kd ik2k/ik_brick_3216d.jpg
+
+newmtl slot1048
+map_Kd ik2k/ik_woodv256a.jpg
+
+newmtl slot1049
+map_Kd ik2k/ik_woodv256a.jpg
+
+newmtl slot1050
+map_Kd ik2k/ik_floor_wood128b.jpg
+
+newmtl slot1051
+map_Kd dg/floor_pavement_stone_four2.jpg
+
+newmtl slot1052
+map_Kd dg/mur078.jpg
+
+newmtl slot1053
+map_Kd dg/floor_pavement_stone4_3.jpg
+
+newmtl slot1054
+map_Kd ik2k/ik_wood_planks128b.jpg
+
+newmtl slot1055
+map_Kd ik2k/ik_floor_wood128b.jpg
+
+newmtl slot1058
+map_Kd ik2k/ik_floor_wood128b.jpg
+
+newmtl slot1059
+map_Kd mitaman/mm-wood02_fade.jpg
+
+newmtl slot1060
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1061
+map_Kd aftas/par10_a.jpg
+
+newmtl slot1062
+map_Kd dg/floor_pavement_stone_four2.jpg
+
+newmtl slot1063
+map_Kd dg/floor_pavement_stone4_3.jpg
+
+newmtl slot1065
+map_Kd egyptsoc/wood17.jpg
+
+newmtl slot1066
+map_Kd subverse/flat_rocks.jpg
+
+newmtl slot1067
+map_Kd ik2k/ik_brickwall_gry.jpg
+
+newmtl slot1068
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1069
+map_Kd dg/floor_pavement_stone5_2.jpg
+
+newmtl slot1070
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1072
+map_Kd ik2k/ik_floor_wood128d.jpg
+
+newmtl slot1073
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1075
+map_Kd dg/floor_pavement_stone4_3.jpg
+
+newmtl slot1077
+map_Kd aftas/piso2.jpg
+
+newmtl slot1079
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1082
+map_Kd rorschach/256_gate_water02.jpg
+
+newmtl slot1086
+map_Kd rorschach/256_gate_water02.jpg
+
+newmtl slot1087
+map_Kd aftas/par10_a.jpg
+
+newmtl slot1089
+map_Kd aftas/par11.jpg
+
+newmtl slot1095
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1097
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1102
+map_Kd rorschach/256_gate_water02.jpg
+
+newmtl slot1105
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1107
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1113
+map_Kd dg/floor_pavement_stone_four2.jpg
+
+newmtl slot1114
+map_Kd egyptsoc/stone01a.jpg
+
+newmtl slot1116
+map_Kd ik2k/ik_floor_wood128b.jpg
+
+newmtl slot1117
+map_Kd egyptsoc/wood17.jpg
+
+newmtl slot1118
+map_Kd dg/floor_pavement_stone4_3.jpg
+
+newmtl slot1120
+map_Kd ik2k/ik_floor_wood128b.jpg
+
+newmtl slot1121
+map_Kd dg/floor_pavement_stone4_2.jpg
+
+newmtl slot1123
+map_Kd textures/nieb/brick-tan.jpg
+
+newmtl slot1124
+map_Kd textures/nieb/brick-tan.jpg
+
+newmtl slot1125
+map_Kd dg/mad065.jpg
+
+newmtl slot1127
+map_Kd ik2k/ik_wpaperplain128c.jpg
+
+newmtl slot1128
+map_Kd textures/nieb/concrete-tan.jpg
+
+newmtl slot1130
+map_Kd ik2k/ik_woodv256a.jpg
+
+newmtl slot1131
+map_Kd textures/nieb/concrete-red.jpg
+
+newmtl slot1132
+map_Kd aftas/rodape1.jpg
+
+newmtl slot1133
+map_Kd trak5/light2a.jpg
+
+newmtl slot1135
+map_Kd ik2k/ik_woodv256a.jpg
+
+newmtl slot1136
+map_Kd ik2k/ik_wood_trimh64d.jpg
+
+newmtl slot1139
+map_Kd textures/nieb/concrete-tan.jpg
+
+newmtl slot1140
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot1142
+map_Kd egyptsoc/wood17.jpg
+
+newmtl slot1145
+map_Kd mitaman/mm-brickold88a.jpg
+
+newmtl slot1146
+map_Kd subverse/wood_crate_05.jpg
+
+newmtl slot1147
+map_Kd ik2k/ik_woodv256a.jpg
+
+newmtl slot1150
+map_Kd subverse/wood_crate_1.jpg
+
+newmtl slot1157
+map_Kd dg/floor_pavement_stone5_2.jpg
+
+newmtl slot1160
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot1161
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot1163
+map_Kd ik2k/ik_wood_planks128b.jpg
+
+newmtl slot1164
+map_Kd gor/GR_GK_009_cc.jpg
+
+newmtl slot1166
+map_Kd painkillah/pk_flwh_vitral_cc.jpg
+
+newmtl slot1167
+map_Kd lunaran/glue1_d.jpg
+
+newmtl slot1168
+map_Kd egyptsoc/wood17.jpg
+
+newmtl slot1169
+map_Kd gor/GR_GK_007_cc.jpg
+
+newmtl slot1170
+map_Kd painkillah/pk_flower_vitral_cc.jpg
+
+newmtl slot1171
+map_Kd painkillah/pk_flwh_vitral_cc.jpg
+
+newmtl slot1172
+map_Kd trak5/glass.jpg
+
+newmtl slot1174
+map_Kd aard/aardograss_1.jpg
+
+newmtl slot1175
+map_Kd ik2k/ik_ground_deadgrass128.jpg
+
+newmtl slot1183
+map_Kd ik2k/ik_wpaperplain128c.jpg
+
+newmtl slot1187
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot1202
+map_Kd tomek/snow7_d.jpg
+
+newmtl slot1210
+map_Kd textures/nieb/concrete-tan.jpg
+
+newmtl slot1211
+map_Kd textures/nieb/concrete-tan.jpg
+
+newmtl slot1212
+map_Kd textures/nieb/concrete-tan.jpg
