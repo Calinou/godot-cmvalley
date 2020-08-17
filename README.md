@@ -7,6 +7,8 @@ Uses SDFGI for global illumination in addition to volumetric fog.
 
 The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
 
+*Looking for a smaller urban/industrial test scene? See [godot-reflection](https://github.com/Calinou/godot-reflection).*
+
 ## Try it out
 
 If you just want to run this demo,
