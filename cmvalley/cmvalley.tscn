@@ -1,6 +1,71 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://cmvalley/cmvalley.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://camera.gd" type="Script" id=2]
+
+[sub_resource type="OpenSimplexNoise" id=1]
+
+[sub_resource type="NoiseTexture" id=2]
+seamless = true
+noise = SubResource( 1 )
+
+[sub_resource type="OpenSimplexNoise" id=3]
+octaves = 7
+persistence = 0.3
+lacunarity = 2.87
+
+[sub_resource type="NoiseTexture" id=4]
+seamless = true
+as_normalmap = true
+bump_strength = 4.0
+noise = SubResource( 3 )
+
+[sub_resource type="StandardMaterial3D" id=5]
+albedo_color = Color( 0.372549, 0.490196, 0.694118, 1 )
+metallic = 0.94
+roughness = 0.0
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = SubResource( 4 )
+rim_enabled = true
+rim = 1.0
+rim_tint = 1.0
+clearcoat_enabled = true
+clearcoat = 1.0
+clearcoat_gloss = 1.0
+heightmap_enabled = true
+heightmap_scale = 0.08
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_flip_tangent = false
+heightmap_flip_binormal = false
+heightmap_texture = SubResource( 2 )
+heightmap_flip_texture = false
+uv1_scale = Vector3( 16, 16, 16 )
+uv1_offset = Vector3( 0.25, 0.062, 0 )
+texture_filter = 5
+
+[sub_resource type="PlaneMesh" id=6]
+material = SubResource( 5 )
+size = Vector2( 512, 512 )
+
+[sub_resource type="Animation" id=7]
+resource_name = "water_move"
+length = 30.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Water:mesh:material:uv1_offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PackedFloat32Array( 0, 30 ),
+"transitions": PackedFloat32Array( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 1, 1, 0 ) ]
+}
 
 [node name="Node3D" type="Node3D"]
 script = null
@@ -287,14 +352,25 @@ material/274 = null
 script = null
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform( 0.423335, 0.33284, -0.842618, 0, 0.930069, 0.367384, 0.905973, -0.155527, 0.393731, -115.75, 42.5696, -8.17094 )
+transform = Transform( 0.997347, 0.0439668, -0.0580192, 0, 0.797007, 0.60397, 0.0727964, -0.602368, 0.794892, -53.6922, 36.3533, 7.36323 )
 shadow_enabled = true
 directional_shadow_fade_start = 1.0
 directional_shadow_blend_splits = true
-directional_shadow_max_distance = 400.0
+directional_shadow_max_distance = 320.0
 script = null
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform( -0.496342, 0.256053, -0.829507, 0, 0.955513, 0.294949, 0.868127, 0.146395, -0.474261, -60.3881, 32.79, -33.2241 )
+transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.689, 17.1835, -100.829 )
 far = 500.0
+script = ExtResource( 2 )
+
+[node name="Water" type="MeshInstance3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -58.3403, 3.48442, -14.1366 )
+mesh = SubResource( 6 )
+material/0 = null
+script = null
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "water_move"
+anims/water_move = SubResource( 7 )
 script = null
