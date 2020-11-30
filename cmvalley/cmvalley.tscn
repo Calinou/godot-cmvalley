@@ -373,4 +373,5 @@ script = null
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "water_move"
 anims/water_move = SubResource( 7 )
+blend_times = [  ]
 script = null

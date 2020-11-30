@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.s3tc.stex"
-path.etc2="res://.import/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.etc2.stex"
+path.s3tc="res://.godot/imported/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.s3tc.stex"
+path.etc2="res://.godot/imported/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/textures/nieb/concrete-light.jpg"
-dest_files=[ "res://.import/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.s3tc.stex", "res://.import/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.etc2.stex" ]
+dest_files=[ "res://.godot/imported/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.s3tc.stex", "res://.godot/imported/concrete-light.jpg-091bf5140930fe9ce0e0ce52bdd4e77f.etc2.stex" ]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.s3tc.stex"
-path.etc2="res://.import/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.etc2.stex"
+path.s3tc="res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.s3tc.stex"
+path.etc2="res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-brickold88a.jpg"
-dest_files=[ "res://.import/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.s3tc.stex", "res://.import/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.etc2.stex" ]
+dest_files=[ "res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.s3tc.stex", "res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.etc2.stex" ]
 
 [params]
 

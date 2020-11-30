@@ -2,14 +2,14 @@
 
 importer="wavefront_obj"
 type="Mesh"
-path="res://.import/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh"
+path="res://.godot/imported/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh"
 
 [deps]
 
-files=[ "res://.import/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh" ]
+files=[ "res://.godot/imported/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh" ]
 
 source_file="res://cmvalley/cmvalley.obj"
-dest_files=[ "res://.import/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh", "res://.import/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh" ]
+dest_files=[ "res://.godot/imported/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh", "res://.godot/imported/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh" ]
 
 [params]
 

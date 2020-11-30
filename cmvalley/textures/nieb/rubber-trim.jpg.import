@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.s3tc.stex"
-path.etc2="res://.import/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.etc2.stex"
+path.s3tc="res://.godot/imported/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.s3tc.stex"
+path.etc2="res://.godot/imported/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/textures/nieb/rubber-trim.jpg"
-dest_files=[ "res://.import/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.s3tc.stex", "res://.import/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.etc2.stex" ]
+dest_files=[ "res://.godot/imported/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.s3tc.stex", "res://.godot/imported/rubber-trim.jpg-80fdff54aba443822406ba5dadede6f9.etc2.stex" ]
 
 [params]
 

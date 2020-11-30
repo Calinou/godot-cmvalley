@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.s3tc.stex"
-path.etc2="res://.import/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.etc2.stex"
+path.s3tc="res://.godot/imported/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.s3tc.stex"
+path.etc2="res://.godot/imported/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/subverse/flat_rocks.jpg"
-dest_files=[ "res://.import/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.s3tc.stex", "res://.import/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.etc2.stex" ]
+dest_files=[ "res://.godot/imported/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.s3tc.stex", "res://.godot/imported/flat_rocks.jpg-ed83eca98b9ece18e5c2656bb25bd40a.etc2.stex" ]
 
 [params]
 

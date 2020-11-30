@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.s3tc.stex"
-path.etc2="res://.import/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.etc2.stex"
+path.s3tc="res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.s3tc.stex"
+path.etc2="res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/g_pack/g-bricks10.jpg"
-dest_files=[ "res://.import/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.s3tc.stex", "res://.import/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.etc2.stex" ]
+dest_files=[ "res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.s3tc.stex", "res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.etc2.stex" ]
 
 [params]
 

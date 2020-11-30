@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.s3tc.stex"
-path.etc2="res://.import/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.etc2.stex"
+path.s3tc="res://.godot/imported/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.s3tc.stex"
+path.etc2="res://.godot/imported/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/egyptsoc/lig_032-01b1.jpg"
-dest_files=[ "res://.import/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.s3tc.stex", "res://.import/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.etc2.stex" ]
+dest_files=[ "res://.godot/imported/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.s3tc.stex", "res://.godot/imported/lig_032-01b1.jpg-7e5caff5c552b6f94641b6bc700e272a.etc2.stex" ]
 
 [params]
 

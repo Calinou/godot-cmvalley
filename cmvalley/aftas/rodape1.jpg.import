@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.s3tc.stex"
-path.etc2="res://.import/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.etc2.stex"
+path.s3tc="res://.godot/imported/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.s3tc.stex"
+path.etc2="res://.godot/imported/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/aftas/rodape1.jpg"
-dest_files=[ "res://.import/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.s3tc.stex", "res://.import/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.etc2.stex" ]
+dest_files=[ "res://.godot/imported/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.s3tc.stex", "res://.godot/imported/rodape1.jpg-ec5eb36b16ffdb9cf66bfba793d44345.etc2.stex" ]
 
 [params]
 

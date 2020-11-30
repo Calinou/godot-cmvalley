@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.s3tc.stex"
-path.etc2="res://.import/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.etc2.stex"
+path.s3tc="res://.godot/imported/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.s3tc.stex"
+path.etc2="res://.godot/imported/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/rorschach/4_conc_floor01.jpg"
-dest_files=[ "res://.import/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.s3tc.stex", "res://.import/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.etc2.stex" ]
+dest_files=[ "res://.godot/imported/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.s3tc.stex", "res://.godot/imported/4_conc_floor01.jpg-137b714ac13d828c73b659d183df889f.etc2.stex" ]
 
 [params]
 

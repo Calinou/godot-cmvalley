@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.s3tc.stex"
-path.etc2="res://.import/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.etc2.stex"
+path.s3tc="res://.godot/imported/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.s3tc.stex"
+path.etc2="res://.godot/imported/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/trak5/pipe1d.jpg"
-dest_files=[ "res://.import/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.s3tc.stex", "res://.import/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.etc2.stex" ]
+dest_files=[ "res://.godot/imported/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.s3tc.stex", "res://.godot/imported/pipe1d.jpg-a250c03d023ce8ee1c1d8ea062960d94.etc2.stex" ]
 
 [params]
 

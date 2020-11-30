@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.s3tc.stex"
-path.etc2="res://.import/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.etc2.stex"
+path.s3tc="res://.godot/imported/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.s3tc.stex"
+path.etc2="res://.godot/imported/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/g_pack/g-concrete05.jpg"
-dest_files=[ "res://.import/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.s3tc.stex", "res://.import/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.etc2.stex" ]
+dest_files=[ "res://.godot/imported/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.s3tc.stex", "res://.godot/imported/g-concrete05.jpg-4dfafe8ce8c02644d5101a4d25fa0de2.etc2.stex" ]
 
 [params]
 

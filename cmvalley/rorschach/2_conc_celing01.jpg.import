@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.s3tc.stex"
-path.etc2="res://.import/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.etc2.stex"
+path.s3tc="res://.godot/imported/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.s3tc.stex"
+path.etc2="res://.godot/imported/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/rorschach/2_conc_celing01.jpg"
-dest_files=[ "res://.import/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.s3tc.stex", "res://.import/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.etc2.stex" ]
+dest_files=[ "res://.godot/imported/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.s3tc.stex", "res://.godot/imported/2_conc_celing01.jpg-55bd779028df0b65e715e40c1b69040e.etc2.stex" ]
 
 [params]
 

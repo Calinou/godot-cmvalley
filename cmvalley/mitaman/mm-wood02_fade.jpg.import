@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.s3tc.stex"
-path.etc2="res://.import/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.etc2.stex"
+path.s3tc="res://.godot/imported/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.s3tc.stex"
+path.etc2="res://.godot/imported/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-wood02_fade.jpg"
-dest_files=[ "res://.import/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.s3tc.stex", "res://.import/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.etc2.stex" ]
+dest_files=[ "res://.godot/imported/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.s3tc.stex", "res://.godot/imported/mm-wood02_fade.jpg-0b6ce4de4a0908a209ee17bc5dc57d03.etc2.stex" ]
 
 [params]
 
