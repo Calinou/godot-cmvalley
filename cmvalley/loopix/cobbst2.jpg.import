@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.s3tc.stex"
-path.etc2="res://.import/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.etc2.stex"
+path.s3tc="res://.godot/imported/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.s3tc.stex"
+path.etc2="res://.godot/imported/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/loopix/cobbst2.jpg"
-dest_files=[ "res://.import/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.s3tc.stex", "res://.import/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.etc2.stex" ]
+dest_files=[ "res://.godot/imported/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.s3tc.stex", "res://.godot/imported/cobbst2.jpg-0c1c68760e07d821026b5a55156e5285.etc2.stex" ]
 
 [params]
 

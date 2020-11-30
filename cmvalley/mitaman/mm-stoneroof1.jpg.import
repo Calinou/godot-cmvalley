@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.s3tc.stex"
-path.etc2="res://.import/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.etc2.stex"
+path.s3tc="res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.s3tc.stex"
+path.etc2="res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-stoneroof1.jpg"
-dest_files=[ "res://.import/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.s3tc.stex", "res://.import/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.etc2.stex" ]
+dest_files=[ "res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.s3tc.stex", "res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.etc2.stex" ]
 
 [params]
 

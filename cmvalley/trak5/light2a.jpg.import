@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.s3tc.stex"
-path.etc2="res://.import/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.etc2.stex"
+path.s3tc="res://.godot/imported/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.s3tc.stex"
+path.etc2="res://.godot/imported/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/trak5/light2a.jpg"
-dest_files=[ "res://.import/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.s3tc.stex", "res://.import/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.etc2.stex" ]
+dest_files=[ "res://.godot/imported/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.s3tc.stex", "res://.godot/imported/light2a.jpg-bb7dd4207b9ae30913cfc89ed91cbb7d.etc2.stex" ]
 
 [params]
 

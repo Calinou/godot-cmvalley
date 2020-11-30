@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/rock02.jpg-9a17aaf37d390451e519438988f7f293.s3tc.stex"
-path.etc2="res://.import/rock02.jpg-9a17aaf37d390451e519438988f7f293.etc2.stex"
+path.s3tc="res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.s3tc.stex"
+path.etc2="res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/textures/nieb/rock02.jpg"
-dest_files=[ "res://.import/rock02.jpg-9a17aaf37d390451e519438988f7f293.s3tc.stex", "res://.import/rock02.jpg-9a17aaf37d390451e519438988f7f293.etc2.stex" ]
+dest_files=[ "res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.s3tc.stex", "res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.etc2.stex" ]
 
 [params]
 

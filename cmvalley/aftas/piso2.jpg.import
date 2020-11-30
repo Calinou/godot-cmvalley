@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.s3tc.stex"
-path.etc2="res://.import/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.etc2.stex"
+path.s3tc="res://.godot/imported/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.s3tc.stex"
+path.etc2="res://.godot/imported/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/aftas/piso2.jpg"
-dest_files=[ "res://.import/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.s3tc.stex", "res://.import/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.etc2.stex" ]
+dest_files=[ "res://.godot/imported/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.s3tc.stex", "res://.godot/imported/piso2.jpg-43a095fc5ed7ea8779c8777a9ea8af7c.etc2.stex" ]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.s3tc.stex"
-path.etc2="res://.import/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.etc2.stex"
+path.s3tc="res://.godot/imported/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.s3tc.stex"
+path.etc2="res://.godot/imported/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/dg/floor_soil&grave3.jpg"
-dest_files=[ "res://.import/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.s3tc.stex", "res://.import/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.etc2.stex" ]
+dest_files=[ "res://.godot/imported/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.s3tc.stex", "res://.godot/imported/floor_soil&grave3.jpg-1b4c306d219cfa967e39d6093d3c95c8.etc2.stex" ]
 
 [params]
 

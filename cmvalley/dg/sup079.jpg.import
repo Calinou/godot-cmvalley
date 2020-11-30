@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.s3tc.stex"
-path.etc2="res://.import/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.etc2.stex"
+path.s3tc="res://.godot/imported/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.s3tc.stex"
+path.etc2="res://.godot/imported/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/dg/sup079.jpg"
-dest_files=[ "res://.import/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.s3tc.stex", "res://.import/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.etc2.stex" ]
+dest_files=[ "res://.godot/imported/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.s3tc.stex", "res://.godot/imported/sup079.jpg-ed83d96931d245ce4cfb229b2d71b5ec.etc2.stex" ]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/floor02.jpg-ac51295f06bfbf9f66b287731332799d.s3tc.stex"
-path.etc2="res://.import/floor02.jpg-ac51295f06bfbf9f66b287731332799d.etc2.stex"
+path.s3tc="res://.godot/imported/floor02.jpg-ac51295f06bfbf9f66b287731332799d.s3tc.stex"
+path.etc2="res://.godot/imported/floor02.jpg-ac51295f06bfbf9f66b287731332799d.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/than_ind/floor02.jpg"
-dest_files=[ "res://.import/floor02.jpg-ac51295f06bfbf9f66b287731332799d.s3tc.stex", "res://.import/floor02.jpg-ac51295f06bfbf9f66b287731332799d.etc2.stex" ]
+dest_files=[ "res://.godot/imported/floor02.jpg-ac51295f06bfbf9f66b287731332799d.s3tc.stex", "res://.godot/imported/floor02.jpg-ac51295f06bfbf9f66b287731332799d.etc2.stex" ]
 
 [params]
 

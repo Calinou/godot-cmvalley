@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.s3tc.stex"
-path.etc2="res://.import/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.etc2.stex"
+path.s3tc="res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.s3tc.stex"
+path.etc2="res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/philipk/pk01_pan_floor02b_d.jpg"
-dest_files=[ "res://.import/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.s3tc.stex", "res://.import/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.etc2.stex" ]
+dest_files=[ "res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.s3tc.stex", "res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.etc2.stex" ]
 
 [params]
 

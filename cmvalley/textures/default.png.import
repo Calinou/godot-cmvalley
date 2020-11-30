@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/default.png-a6f4188656c596df15fe915b24d3f6ca.s3tc.stex"
-path.etc2="res://.import/default.png-a6f4188656c596df15fe915b24d3f6ca.etc2.stex"
+path.s3tc="res://.godot/imported/default.png-a6f4188656c596df15fe915b24d3f6ca.s3tc.stex"
+path.etc2="res://.godot/imported/default.png-a6f4188656c596df15fe915b24d3f6ca.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/textures/default.png"
-dest_files=[ "res://.import/default.png-a6f4188656c596df15fe915b24d3f6ca.s3tc.stex", "res://.import/default.png-a6f4188656c596df15fe915b24d3f6ca.etc2.stex" ]
+dest_files=[ "res://.godot/imported/default.png-a6f4188656c596df15fe915b24d3f6ca.s3tc.stex", "res://.godot/imported/default.png-a6f4188656c596df15fe915b24d3f6ca.etc2.stex" ]
 
 [params]
 

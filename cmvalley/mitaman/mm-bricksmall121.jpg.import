@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.s3tc.stex"
-path.etc2="res://.import/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.etc2.stex"
+path.s3tc="res://.godot/imported/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.s3tc.stex"
+path.etc2="res://.godot/imported/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-bricksmall121.jpg"
-dest_files=[ "res://.import/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.s3tc.stex", "res://.import/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.etc2.stex" ]
+dest_files=[ "res://.godot/imported/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.s3tc.stex", "res://.godot/imported/mm-bricksmall121.jpg-8bf612df716d0d74ca9a4d6726746812.etc2.stex" ]
 
 [params]
 

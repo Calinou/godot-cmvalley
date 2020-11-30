@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.s3tc.stex"
-path.etc2="res://.import/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.etc2.stex"
+path.s3tc="res://.godot/imported/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.s3tc.stex"
+path.etc2="res://.godot/imported/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/aard/aardograss_1.jpg"
-dest_files=[ "res://.import/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.s3tc.stex", "res://.import/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.etc2.stex" ]
+dest_files=[ "res://.godot/imported/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.s3tc.stex", "res://.godot/imported/aardograss_1.jpg-f4ca2f5f93796de3dfce8cd6f9793179.etc2.stex" ]
 
 [params]
 

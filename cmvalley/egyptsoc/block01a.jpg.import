@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.s3tc.stex"
-path.etc2="res://.import/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.etc2.stex"
+path.s3tc="res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.s3tc.stex"
+path.etc2="res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/egyptsoc/block01a.jpg"
-dest_files=[ "res://.import/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.s3tc.stex", "res://.import/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.etc2.stex" ]
+dest_files=[ "res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.s3tc.stex", "res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.etc2.stex" ]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.s3tc.stex"
-path.etc2="res://.import/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.etc2.stex"
+path.s3tc="res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.s3tc.stex"
+path.etc2="res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/tech1soc/matbrown_lgt2.jpg"
-dest_files=[ "res://.import/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.s3tc.stex", "res://.import/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.etc2.stex" ]
+dest_files=[ "res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.s3tc.stex", "res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.etc2.stex" ]
 
 [params]
 

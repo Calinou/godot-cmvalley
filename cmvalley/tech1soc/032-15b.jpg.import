@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.s3tc.stex"
-path.etc2="res://.import/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.etc2.stex"
+path.s3tc="res://.godot/imported/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.s3tc.stex"
+path.etc2="res://.godot/imported/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/tech1soc/032-15b.jpg"
-dest_files=[ "res://.import/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.s3tc.stex", "res://.import/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.etc2.stex" ]
+dest_files=[ "res://.godot/imported/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.s3tc.stex", "res://.godot/imported/032-15b.jpg-9c3e2322c16b30f976e58652de8f54f1.etc2.stex" ]
 
 [params]
 

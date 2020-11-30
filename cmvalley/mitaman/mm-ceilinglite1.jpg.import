@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.s3tc.stex"
-path.etc2="res://.import/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.etc2.stex"
+path.s3tc="res://.godot/imported/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.s3tc.stex"
+path.etc2="res://.godot/imported/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-ceilinglite1.jpg"
-dest_files=[ "res://.import/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.s3tc.stex", "res://.import/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.etc2.stex" ]
+dest_files=[ "res://.godot/imported/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.s3tc.stex", "res://.godot/imported/mm-ceilinglite1.jpg-a46c8d35ec60584a5a4f7f7d4e267914.etc2.stex" ]
 
 [params]
 

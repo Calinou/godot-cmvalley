@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.s3tc.stex"
-path.etc2="res://.import/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.etc2.stex"
+path.s3tc="res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.s3tc.stex"
+path.etc2="res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/lunaran/bigmet2_d.jpg"
-dest_files=[ "res://.import/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.s3tc.stex", "res://.import/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.etc2.stex" ]
+dest_files=[ "res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.s3tc.stex", "res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.etc2.stex" ]
 
 [params]
 

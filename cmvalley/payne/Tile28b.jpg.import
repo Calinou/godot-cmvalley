@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.s3tc.stex"
-path.etc2="res://.import/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.etc2.stex"
+path.s3tc="res://.godot/imported/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.s3tc.stex"
+path.etc2="res://.godot/imported/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/payne/Tile28b.jpg"
-dest_files=[ "res://.import/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.s3tc.stex", "res://.import/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.etc2.stex" ]
+dest_files=[ "res://.godot/imported/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.s3tc.stex", "res://.godot/imported/Tile28b.jpg-3718f152dfc1c55a97161f2dbe3bd3d2.etc2.stex" ]
 
 [params]
 

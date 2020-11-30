@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.s3tc.stex"
-path.etc2="res://.import/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.etc2.stex"
+path.s3tc="res://.godot/imported/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.s3tc.stex"
+path.etc2="res://.godot/imported/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/ik2k/ik_ground_cobbles128.jpg"
-dest_files=[ "res://.import/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.s3tc.stex", "res://.import/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.etc2.stex" ]
+dest_files=[ "res://.godot/imported/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.s3tc.stex", "res://.godot/imported/ik_ground_cobbles128.jpg-20b12ece59f52ead3c103b2bdebf0bcb.etc2.stex" ]
 
 [params]
 

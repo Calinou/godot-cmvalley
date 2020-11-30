@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.s3tc.stex"
-path.etc2="res://.import/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.etc2.stex"
+path.s3tc="res://.godot/imported/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.s3tc.stex"
+path.etc2="res://.godot/imported/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/payne/Brick58_512x512.jpg"
-dest_files=[ "res://.import/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.s3tc.stex", "res://.import/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.etc2.stex" ]
+dest_files=[ "res://.godot/imported/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.s3tc.stex", "res://.godot/imported/Brick58_512x512.jpg-d55451a0fe0c889af91d70a901a4c6f5.etc2.stex" ]
 
 [params]
 

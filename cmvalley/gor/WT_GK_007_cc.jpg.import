@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.s3tc.stex"
-path.etc2="res://.import/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.etc2.stex"
+path.s3tc="res://.godot/imported/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.s3tc.stex"
+path.etc2="res://.godot/imported/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/gor/WT_GK_007_cc.jpg"
-dest_files=[ "res://.import/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.s3tc.stex", "res://.import/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.etc2.stex" ]
+dest_files=[ "res://.godot/imported/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.s3tc.stex", "res://.godot/imported/WT_GK_007_cc.jpg-fd3903a8e41031b2722228b60c7054d0.etc2.stex" ]
 
 [params]
 

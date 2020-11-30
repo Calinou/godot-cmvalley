@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.s3tc.stex"
-path.etc2="res://.import/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.etc2.stex"
+path.s3tc="res://.godot/imported/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.s3tc.stex"
+path.etc2="res://.godot/imported/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/textures/nieb/sand01.jpg"
-dest_files=[ "res://.import/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.s3tc.stex", "res://.import/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.etc2.stex" ]
+dest_files=[ "res://.godot/imported/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.s3tc.stex", "res://.godot/imported/sand01.jpg-6c166932588f28ec35c3e4126ca4ea89.etc2.stex" ]
 
 [params]
 

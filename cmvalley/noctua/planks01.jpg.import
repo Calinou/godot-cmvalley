@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.s3tc.stex"
-path.etc2="res://.import/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.etc2.stex"
+path.s3tc="res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.s3tc.stex"
+path.etc2="res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/noctua/planks01.jpg"
-dest_files=[ "res://.import/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.s3tc.stex", "res://.import/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.etc2.stex" ]
+dest_files=[ "res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.s3tc.stex", "res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.etc2.stex" ]
 
 [params]
 

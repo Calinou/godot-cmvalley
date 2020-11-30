@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.s3tc.stex"
-path.etc2="res://.import/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.etc2.stex"
+path.s3tc="res://.godot/imported/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.s3tc.stex"
+path.etc2="res://.godot/imported/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/textures/nieb/concrete-tan.jpg"
-dest_files=[ "res://.import/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.s3tc.stex", "res://.import/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.etc2.stex" ]
+dest_files=[ "res://.godot/imported/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.s3tc.stex", "res://.godot/imported/concrete-tan.jpg-b3cc111233db2e139eeba5f6bfe6f1c4.etc2.stex" ]
 
 [params]
 

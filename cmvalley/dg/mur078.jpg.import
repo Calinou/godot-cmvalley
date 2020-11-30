@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/mur078.jpg-0f212563831667714b683b6b262c9c86.s3tc.stex"
-path.etc2="res://.import/mur078.jpg-0f212563831667714b683b6b262c9c86.etc2.stex"
+path.s3tc="res://.godot/imported/mur078.jpg-0f212563831667714b683b6b262c9c86.s3tc.stex"
+path.etc2="res://.godot/imported/mur078.jpg-0f212563831667714b683b6b262c9c86.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/dg/mur078.jpg"
-dest_files=[ "res://.import/mur078.jpg-0f212563831667714b683b6b262c9c86.s3tc.stex", "res://.import/mur078.jpg-0f212563831667714b683b6b262c9c86.etc2.stex" ]
+dest_files=[ "res://.godot/imported/mur078.jpg-0f212563831667714b683b6b262c9c86.s3tc.stex", "res://.godot/imported/mur078.jpg-0f212563831667714b683b6b262c9c86.etc2.stex" ]
 
 [params]
 

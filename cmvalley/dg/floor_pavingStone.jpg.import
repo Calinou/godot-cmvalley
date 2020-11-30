@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.s3tc.stex"
-path.etc2="res://.import/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.etc2.stex"
+path.s3tc="res://.godot/imported/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.s3tc.stex"
+path.etc2="res://.godot/imported/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/dg/floor_pavingStone.jpg"
-dest_files=[ "res://.import/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.s3tc.stex", "res://.import/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.etc2.stex" ]
+dest_files=[ "res://.godot/imported/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.s3tc.stex", "res://.godot/imported/floor_pavingStone.jpg-180f5de63d674c790da401a75613f8e1.etc2.stex" ]
 
 [params]
 

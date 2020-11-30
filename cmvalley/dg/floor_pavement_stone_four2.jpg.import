@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.s3tc.stex"
-path.etc2="res://.import/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.etc2.stex"
+path.s3tc="res://.godot/imported/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.s3tc.stex"
+path.etc2="res://.godot/imported/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/dg/floor_pavement_stone_four2.jpg"
-dest_files=[ "res://.import/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.s3tc.stex", "res://.import/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.etc2.stex" ]
+dest_files=[ "res://.godot/imported/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.s3tc.stex", "res://.godot/imported/floor_pavement_stone_four2.jpg-ec991da7b5adb5854e2ce8b43c1e9e6b.etc2.stex" ]
 
 [params]
 

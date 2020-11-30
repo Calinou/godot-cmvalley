@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture2D"
-path.s3tc="res://.import/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.s3tc.stex"
-path.etc2="res://.import/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.etc2.stex"
+path.s3tc="res://.godot/imported/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.s3tc.stex"
+path.etc2="res://.godot/imported/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -12,7 +12,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/subverse/puzzel_block.jpg"
-dest_files=[ "res://.import/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.s3tc.stex", "res://.import/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.etc2.stex" ]
+dest_files=[ "res://.godot/imported/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.s3tc.stex", "res://.godot/imported/puzzel_block.jpg-ef42553f662677f7db301f69b9587dad.etc2.stex" ]
 
 [params]
 
