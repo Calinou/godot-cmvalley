@@ -1,6 +1,7 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
 path="res://.godot/imported/cmvalley.obj-4674d0e13bb9620bb113843c48f87525.mesh"
 

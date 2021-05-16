@@ -33,8 +33,8 @@ func _input(event: InputEvent) -> void:
 		rotation_dest.y -= event.relative.x * MOUSE_SENSITIVITY
 		# Vertical mouse look, clamped to -90..90 degrees
 		rotation_dest.x = clamp(rotation_dest.x - event.relative.y * MOUSE_SENSITIVITY, deg2rad(-90), deg2rad(90))
-	
-	if event is InputEventMouseButton and event.button_index == BUTTON_LEFT:
+
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
 		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 	if event.is_action_pressed("toggle_mouse_capture"):
@@ -48,8 +48,8 @@ func _input(event: InputEvent) -> void:
 
 
 func _process(delta: float) -> void:
-	rotation = lerp(rotation, rotation_dest, 0.05)
-	
+	rotation = rotation.lerp(rotation_dest, 0.05)
+
 	if Input.is_action_pressed("move_forward"):
 		motion.x = -1
 	elif Input.is_action_pressed("move_backward"):
