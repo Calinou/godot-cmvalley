@@ -1,10 +1,11 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://cmvalley/cmvalley.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://camera.gd" type="Script" id=2]
 [ext_resource path="res://default_env.tres" type="Environment" id=3]
 [ext_resource path="res://fps_label.gd" type="Script" id=4]
 [ext_resource path="res://cmvalley/cmvalley.gd" type="Script" id=5]
+[ext_resource path="res://time_of_day.gd" type="Script" id=6]
 
 [sub_resource type="OpenSimplexNoise" id=1]
 
@@ -347,12 +348,23 @@ surface_material_override/273 = null
 surface_material_override/274 = null
 script = ExtResource( 5 )
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform( 0.997347, 0.0439668, -0.0580192, 0, 0.797007, 0.60397, 0.0727964, -0.602368, 0.794892, -53.6922, 36.3533, 7.36323 )
+[node name="Sun" type="DirectionalLight3D" parent="."]
+transform = Transform( 0.906308, 0.242404, -0.346189, 0, 0.819152, 0.573576, 0.422618, -0.519837, 0.742404, -53.6922, 36.3533, 7.36323 )
 shadow_enabled = true
 shadow_bias = 0.005
 directional_shadow_fade_start = 1.0
 directional_shadow_max_distance = 320.0
+script = null
+
+[node name="Moon" type="DirectionalLight3D" parent="Sun"]
+transform = Transform( 1, -1.49012e-08, 0, -1.49012e-08, -1, 2.08616e-07, 0, -1.19209e-07, -1, 0, 0, 0 )
+light_color = Color( 0.698039, 0.807843, 1, 1 )
+light_energy = 0.1
+shadow_enabled = true
+shadow_bias = 0.005
+directional_shadow_fade_start = 1.0
+directional_shadow_max_distance = 320.0
+use_in_sky_only = true
 script = null
 
 [node name="Camera3D" type="Camera3D" parent="."]
@@ -387,3 +399,48 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -49.0
+offset_right = 367.0
+offset_bottom = -16.0
+custom_constants/separation = 10
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+offset_top = 5.0
+offset_right = 81.0
+offset_bottom = 28.0
+custom_font_sizes/font_size = 14
+text = "Time of Day"
+structured_text_bidi_override_options = [  ]
+script = null
+
+[node name="HSlider" type="HSlider" parent="HBoxContainer"]
+offset_left = 91.0
+offset_top = 8.0
+offset_right = 310.0
+offset_bottom = 24.0
+size_flags_horizontal = 3
+size_flags_vertical = 4
+script = null
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TimeLabel" type="Label" parent="HBoxContainer"]
+offset_left = 320.0
+offset_top = 3.0
+offset_right = 351.0
+offset_bottom = 29.0
+text = "8:00"
+structured_text_bidi_override_options = [  ]
+script = null
+
+[connection signal="value_changed" from="HBoxContainer/HSlider" to="HBoxContainer" method="_on_HSlider_value_changed"]
