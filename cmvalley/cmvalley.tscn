@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://cmvalley/cmvalley.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://camera.gd" type="Script" id=2]
 [ext_resource path="res://default_env.tres" type="Environment" id=3]
 [ext_resource path="res://fps_label.gd" type="Script" id=4]
+[ext_resource path="res://cmvalley/cmvalley.gd" type="Script" id=5]
 
 [sub_resource type="OpenSimplexNoise" id=1]
 
@@ -344,7 +345,7 @@ surface_material_override/271 = null
 surface_material_override/272 = null
 surface_material_override/273 = null
 surface_material_override/274 = null
-script = null
+script = ExtResource( 5 )
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform( 0.997347, 0.0439668, -0.0580192, 0, 0.797007, 0.60397, 0.0727964, -0.602368, 0.794892, -53.6922, 36.3533, 7.36323 )

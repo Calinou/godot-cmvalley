@@ -80,6 +80,7 @@ toggle_fps_label={
 
 [rendering]
 
+textures/default_filters/anisotropic_filtering_level=4
 sdfgi/probe_ray_count=0
 sdfgi/frames_to_converge=5
 quality/screen_filters/screen_space_aa=1
