@@ -1,26 +1,26 @@
-# Camera freelook and movement script
+# Camera freelook and movement.
 #
-# Copyright © 2017-2020 Hugo Locurcio and contributors - MIT License
+# Copyright © 2017-2021 Hugo Locurcio and contributors - MIT License
 # See `LICENSE.md` included in the source distribution for details.
-
 extends Camera3D
 
 const MOUSE_SENSITIVITY = 0.0005
 
-# The camera movement speed (tweakable using the mouse wheel)
+# The camera movement speed (tweakable using the mouse wheel).
 var move_speed := 0.1
 
-# Stores where the camera is wanting to go (based on pressed keys and speed modifier)
+# Stores where the camera is wanting to go (based on pressed keys and speed modifier).
 var motion := Vector3()
 
-# Stores the effective camera velocity
+# Stores the effective camera velocity.
 var velocity := Vector3()
 
-# The initial camera node rotation
+# The initial camera node rotation.
 var initial_rotation := rotation.y
 
-# The rotation to lerp to (for mouse smoothing)
+# The rotation to lerp to (for mouse smoothing).
 var rotation_dest := rotation
+
 
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -50,32 +50,15 @@ func _input(event: InputEvent) -> void:
 func _process(delta: float) -> void:
 	rotation = rotation.lerp(rotation_dest, 0.05)
 
-	if Input.is_action_pressed("move_forward"):
-		motion.x = -1
-	elif Input.is_action_pressed("move_backward"):
-		motion.x = 1
-	else:
-		motion.x = 0
-
-	if Input.is_action_pressed("move_left"):
-		motion.z = 1
-	elif Input.is_action_pressed("move_right"):
-		motion.z = -1
-	else:
-		motion.z = 0
-
-	if Input.is_action_pressed("move_up"):
-		motion.y = 1
-	elif Input.is_action_pressed("move_down"):
-		motion.y = -1
-	else:
-		motion.y = 0
+	motion.x = Input.get_action_strength("move_backward") - Input.get_action_strength("move_forward")
+	motion.y = Input.get_action_strength("move_up") - Input.get_action_strength("move_down")
+	motion.z = Input.get_action_strength("move_left") - Input.get_action_strength("move_right")
 
 	# Normalize motion
-	# (prevents diagonal movement from being `sqrt(2)` times faster than straight movement)
+	# (prevents diagonal movement from being `sqrt(2)` times faster than straight movement).
 	motion = motion.normalized()
 
-	# Speed modifier
+	# Speed modifier.
 	if Input.is_action_pressed("move_speed"):
 		motion *= 2
 
