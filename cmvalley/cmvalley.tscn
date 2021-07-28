@@ -1,34 +1,44 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=24 format=3 uid="uid://0d28tfgpxbsg"]
 
-[ext_resource path="res://cmvalley/cmvalley.obj" type="ArrayMesh" id=1]
-[ext_resource path="res://camera.gd" type="Script" id=2]
-[ext_resource path="res://default_env.tres" type="Environment" id=3]
-[ext_resource path="res://fps_label.gd" type="Script" id=4]
-[ext_resource path="res://cmvalley/cmvalley.gd" type="Script" id=5]
-[ext_resource path="res://time_of_day.gd" type="Script" id=6]
+[ext_resource type="ArrayMesh" uid="uid://3wryepsgikd6" path="res://cmvalley/cmvalley.obj" id="1"]
+[ext_resource type="Script" path="res://camera.gd" id="2"]
+[ext_resource type="Material" uid="uid://bibmtdkaj8jx3" path="res://ambientcg/Grass004.tres" id="2_t43nn"]
+[ext_resource type="Environment" uid="uid://35eqdcv41b5c" path="res://default_env.tres" id="3"]
+[ext_resource type="Material" uid="uid://cbtmaj1132em2" path="res://ambientcg/Bricks019.tres" id="3_wqybs"]
+[ext_resource type="Script" path="res://fps_label.gd" id="4"]
+[ext_resource type="Material" uid="uid://cod4218l7g6xr" path="res://ambientcg/Bricks019_gray.tres" id="4_s8wlb"]
+[ext_resource type="Script" path="res://cmvalley/cmvalley.gd" id="5"]
+[ext_resource type="Material" uid="uid://disvta3oj2d2b" path="res://ambientcg/Metal018.tres" id="5_knq4g"]
+[ext_resource type="Script" path="res://time_of_day.gd" id="6"]
+[ext_resource type="Material" uid="uid://i2tayosb2t4y" path="res://ambientcg/PavingStones054.tres" id="6_xas2b"]
+[ext_resource type="Material" uid="uid://cxm6hbgg2uoqe" path="res://ambientcg/Rock030.tres" id="7_7tkwe"]
+[ext_resource type="Material" uid="uid://0m5miasw4dhu" path="res://ambientcg/Rock022.tres" id="8_st4ib"]
+[ext_resource type="Material" uid="uid://bg0xc64ikqicr" path="res://ambientcg/Bricks040.tres" id="8_xqse7"]
+[ext_resource type="Material" uid="uid://cjef6tvwdnatj" path="res://ambientcg/Wood043.tres" id="9_3j8gu"]
+[ext_resource type="Material" uid="uid://nn2gturxrbpi" path="res://ambientcg/Rock029.tres" id="10_hdus6"]
 
-[sub_resource type="OpenSimplexNoise" id=1]
+[sub_resource type="OpenSimplexNoise" id="1"]
 
-[sub_resource type="NoiseTexture" id=2]
+[sub_resource type="NoiseTexture" id="2"]
 seamless = true
-noise = SubResource( 1 )
+noise = SubResource( "1" )
 
-[sub_resource type="OpenSimplexNoise" id=3]
+[sub_resource type="OpenSimplexNoise" id="3"]
 octaves = 7
 persistence = 0.3
 lacunarity = 2.87
 
-[sub_resource type="NoiseTexture" id=4]
+[sub_resource type="NoiseTexture" id="4"]
 seamless = true
 bump_strength = 4.0
-noise = SubResource( 3 )
+noise = SubResource( "3" )
 
-[sub_resource type="StandardMaterial3D" id=5]
-albedo_color = Color( 0.372549, 0.490196, 0.694118, 1 )
+[sub_resource type="StandardMaterial3D" id="5"]
+albedo_color = Color(0.372549, 0.490196, 0.694118, 1)
 metallic = 0.94
 roughness = 0.0
 normal_enabled = true
-normal_texture = SubResource( 4 )
+normal_texture = SubResource( "4" )
 rim_enabled = true
 rim_tint = 1.0
 clearcoat_enabled = true
@@ -38,16 +48,16 @@ heightmap_scale = 0.08
 heightmap_deep_parallax = true
 heightmap_min_layers = 8
 heightmap_max_layers = 32
-heightmap_texture = SubResource( 2 )
-uv1_scale = Vector3( 16, 16, 16 )
-uv1_offset = Vector3( 0.25, 0.062, 0 )
+heightmap_texture = SubResource( "2" )
+uv1_scale = Vector3(16, 16, 16)
+uv1_offset = Vector3(0.25, 0.062, 0)
 texture_filter = 5
 
-[sub_resource type="PlaneMesh" id=6]
-material = SubResource( 5 )
-size = Vector2( 512, 512 )
+[sub_resource type="PlaneMesh" id="6"]
+material = SubResource( "5" )
+size = Vector2(512, 512)
 
-[sub_resource type="Animation" id=7]
+[sub_resource type="Animation" id="7"]
 resource_name = "water_move"
 length = 30.0
 loop = true
@@ -58,29 +68,29 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PackedFloat32Array( 0, 30 ),
-"transitions": PackedFloat32Array( 1, 1 ),
+"times": PackedFloat32Array(0, 30),
+"transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [ Vector3( 0, 0, 0 ), Vector3( 1, 1, 0 ) ]
+"values": [Vector3(0, 0, 0), Vector3(1, 1, 0)]
 }
 
 [node name="Node3D" type="Node3D"]
 script = null
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -198, 0 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -198, 0)
 gi_mode = 1
-mesh = ExtResource( 1 )
+mesh = ExtResource( "1" )
 surface_material_override/0 = null
-surface_material_override/1 = null
+surface_material_override/1 = ExtResource( "2_t43nn" )
 surface_material_override/2 = null
 surface_material_override/3 = null
 surface_material_override/4 = null
 surface_material_override/5 = null
-surface_material_override/6 = null
+surface_material_override/6 = ExtResource( "2_t43nn" )
 surface_material_override/7 = null
-surface_material_override/8 = null
-surface_material_override/9 = null
+surface_material_override/8 = ExtResource( "3_wqybs" )
+surface_material_override/9 = ExtResource( "4_s8wlb" )
 surface_material_override/10 = null
 surface_material_override/11 = null
 surface_material_override/12 = null
@@ -100,7 +110,7 @@ surface_material_override/25 = null
 surface_material_override/26 = null
 surface_material_override/27 = null
 surface_material_override/28 = null
-surface_material_override/29 = null
+surface_material_override/29 = ExtResource( "5_knq4g" )
 surface_material_override/30 = null
 surface_material_override/31 = null
 surface_material_override/32 = null
@@ -158,7 +168,7 @@ surface_material_override/83 = null
 surface_material_override/84 = null
 surface_material_override/85 = null
 surface_material_override/86 = null
-surface_material_override/87 = null
+surface_material_override/87 = ExtResource( "6_xas2b" )
 surface_material_override/88 = null
 surface_material_override/89 = null
 surface_material_override/90 = null
@@ -171,12 +181,12 @@ surface_material_override/96 = null
 surface_material_override/97 = null
 surface_material_override/98 = null
 surface_material_override/99 = null
-surface_material_override/100 = null
+surface_material_override/100 = ExtResource( "7_7tkwe" )
 surface_material_override/101 = null
-surface_material_override/102 = null
+surface_material_override/102 = ExtResource( "7_7tkwe" )
 surface_material_override/103 = null
 surface_material_override/104 = null
-surface_material_override/105 = null
+surface_material_override/105 = ExtResource( "7_7tkwe" )
 surface_material_override/106 = null
 surface_material_override/107 = null
 surface_material_override/108 = null
@@ -185,7 +195,7 @@ surface_material_override/110 = null
 surface_material_override/111 = null
 surface_material_override/112 = null
 surface_material_override/113 = null
-surface_material_override/114 = null
+surface_material_override/114 = ExtResource( "8_st4ib" )
 surface_material_override/115 = null
 surface_material_override/116 = null
 surface_material_override/117 = null
@@ -195,12 +205,12 @@ surface_material_override/120 = null
 surface_material_override/121 = null
 surface_material_override/122 = null
 surface_material_override/123 = null
-surface_material_override/124 = null
+surface_material_override/124 = ExtResource( "9_3j8gu" )
 surface_material_override/125 = null
 surface_material_override/126 = null
 surface_material_override/127 = null
 surface_material_override/128 = null
-surface_material_override/129 = null
+surface_material_override/129 = ExtResource( "8_xqse7" )
 surface_material_override/130 = null
 surface_material_override/131 = null
 surface_material_override/132 = null
@@ -214,7 +224,7 @@ surface_material_override/139 = null
 surface_material_override/140 = null
 surface_material_override/141 = null
 surface_material_override/142 = null
-surface_material_override/143 = null
+surface_material_override/143 = ExtResource( "10_hdus6" )
 surface_material_override/144 = null
 surface_material_override/145 = null
 surface_material_override/146 = null
@@ -250,14 +260,14 @@ surface_material_override/175 = null
 surface_material_override/176 = null
 surface_material_override/177 = null
 surface_material_override/178 = null
-surface_material_override/179 = null
+surface_material_override/179 = ExtResource( "7_7tkwe" )
 surface_material_override/180 = null
-surface_material_override/181 = null
-surface_material_override/182 = null
+surface_material_override/181 = ExtResource( "7_7tkwe" )
+surface_material_override/182 = ExtResource( "7_7tkwe" )
 surface_material_override/183 = null
 surface_material_override/184 = null
 surface_material_override/185 = null
-surface_material_override/186 = null
+surface_material_override/186 = ExtResource( "7_7tkwe" )
 surface_material_override/187 = null
 surface_material_override/188 = null
 surface_material_override/189 = null
@@ -298,10 +308,10 @@ surface_material_override/223 = null
 surface_material_override/224 = null
 surface_material_override/225 = null
 surface_material_override/226 = null
-surface_material_override/227 = null
+surface_material_override/227 = ExtResource( "7_7tkwe" )
 surface_material_override/228 = null
-surface_material_override/229 = null
-surface_material_override/230 = null
+surface_material_override/229 = ExtResource( "7_7tkwe" )
+surface_material_override/230 = ExtResource( "7_7tkwe" )
 surface_material_override/231 = null
 surface_material_override/232 = null
 surface_material_override/233 = null
@@ -335,7 +345,7 @@ surface_material_override/260 = null
 surface_material_override/261 = null
 surface_material_override/262 = null
 surface_material_override/263 = null
-surface_material_override/264 = null
+surface_material_override/264 = ExtResource( "7_7tkwe" )
 surface_material_override/265 = null
 surface_material_override/266 = null
 surface_material_override/267 = null
@@ -346,337 +356,337 @@ surface_material_override/271 = null
 surface_material_override/272 = null
 surface_material_override/273 = null
 surface_material_override/274 = null
-script = ExtResource( 5 )
+script = ExtResource( "5" )
 
 [node name="PointLights" type="Node3D" parent="."]
 script = null
 
 [node name="StreetLampLarge" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.2836, 13.8273, -21.9758 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.2836, 13.8273, -21.9758)
 light_energy = 3.0
 omni_range = 15.0
 script = null
 
 [node name="StreetLampLarge2" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 25.2836, 13.8273, -21.9758 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.2836, 13.8273, -21.9758)
 light_energy = 3.0
 omni_range = 15.0
 script = null
 
 [node name="StreetLampLarge3" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 29.5419, 14.4912, 73.4497 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.5419, 14.4912, 73.4497)
 light_energy = 3.0
 omni_range = 15.0
 script = null
 
 [node name="StreetLampLarge4" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.8503, 14.4912, 73.5417 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.8503, 14.4912, 73.5417)
 light_energy = 3.0
 omni_range = 15.0
 script = null
 
 [node name="StreetLampMedium" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 35.5515, 14.9214, -24.4642 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.5515, 14.9214, -24.4642)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium2" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.3964, 12.809, 4.55798 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.3964, 12.809, 4.55798)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium3" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 53.9775, 10.8329, 1.15547 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.9775, 10.8329, 1.15547)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium4" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0286, 12.4839, -7.32517 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0286, 12.4839, -7.32517)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium5" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0286, 12.4839, -2.32517 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0286, 12.4839, -2.32517)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium6" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6602, 12.4839, 3.35206 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6602, 12.4839, 3.35206)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium7" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.7783, 12.4839, 3.35206 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.7783, 12.4839, 3.35206)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium8" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.3407, 12.4839, -2.24819 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.3407, 12.4839, -2.24819)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium9" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -27.3407, 12.4839, -7.36747 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.3407, 12.4839, -7.36747)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium10" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.7941, 12.4839, -13.111 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.7941, 12.4839, -13.111)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium11" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6381, 12.4839, -13.111 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6381, 12.4839, -13.111)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium12" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 45.1868, 10.8215, 60.3384 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.1868, 10.8215, 60.3384)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium13" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.3533, 14.8215, -38.0383 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.3533, 14.8215, -38.0383)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium14" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.76249, 18.025, -38.0383 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.76249, 18.025, -38.0383)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium15" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.74561, 26.8076, -65.2864 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.74561, 26.8076, -65.2864)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium16" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.52609, 24.4959, -60.4737 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.52609, 24.4959, -60.4737)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium17" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.9321, 28.4306, -66.8548 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.9321, 28.4306, -66.8548)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampMedium18" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 30.7536, 26.8443, -70.8567 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.7536, 26.8443, -70.8567)
 light_energy = 3.0
 omni_range = 12.0
 script = null
 
 [node name="StreetLampSmallCrossing" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1885, 12.4404, 7.03634 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1885, 12.4404, 7.03634)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmallCrossing2" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1885, 11.6483, 16.2016 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1885, 11.6483, 16.2016)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall5" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.746, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.746, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall6" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.5694, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.5694, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall7" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 31.5484, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.5484, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall8" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.3718, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.3718, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall9" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 36.3602, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.3602, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall10" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 37.1836, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.1836, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall11" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 41.1463, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.1463, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall12" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 41.9697, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.9697, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall13" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 45.9438, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.9438, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall14" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 46.7672, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.7672, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall15" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 50.7387, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.7387, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall16" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 51.562, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.562, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall17" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9229, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9229, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall18" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.7463, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.7463, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall19" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.1449, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.1449, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall20" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.9683, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.9683, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall21" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.3408, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.3408, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall22" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.1642, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.1642, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall23" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.54737, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.54737, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall24" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.37073, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.37073, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall25" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.73522, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.73522, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall26" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55858, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.55858, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall27" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.07408, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.07408, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall28" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25072, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25072, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall29" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.85023, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.85023, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall30" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.02687, 21.2137, -46.2605 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.02687, 21.2137, -46.2605)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.2999, 9.54171, 42.3219 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.2999, 9.54171, 42.3219)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall2" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.7084, 9.54171, 42.3219 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.7084, 9.54171, 42.3219)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall3" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.2999, 9.54171, 55.3157 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.2999, 9.54171, 55.3157)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="StreetLampSmall4" type="OmniLight3D" parent="PointLights"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.7084, 9.54171, 55.3157 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.7084, 9.54171, 55.3157)
 light_energy = 3.0
 omni_range = 9.0
 script = null
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
-transform = Transform( 0.906308, 0.242404, -0.346189, 0, 0.819152, 0.573576, 0.422618, -0.519837, 0.742404, -53.6922, 36.3533, 7.36323 )
+transform = Transform3D(0.906308, 0.242404, -0.346189, 0, 0.819152, 0.573576, 0.422618, -0.519837, 0.742404, -53.6922, 36.3533, 7.36323)
 shadow_enabled = true
 shadow_bias = 0.005
 directional_shadow_fade_start = 1.0
@@ -684,8 +694,8 @@ directional_shadow_max_distance = 320.0
 script = null
 
 [node name="Moon" type="DirectionalLight3D" parent="Sun"]
-transform = Transform( 1, -1.49012e-08, 0, -1.49012e-08, -1, 2.08616e-07, 0, -1.19209e-07, -1, 0, 0, 0 )
-light_color = Color( 0.698039, 0.807843, 1, 1 )
+transform = Transform3D(1, -1.49012e-08, 0, -1.49012e-08, -1, 2.08616e-07, 0, -1.19209e-07, -1, 0, 0, 0)
+light_color = Color(0.698039, 0.807843, 1, 1)
 light_energy = 0.09
 shadow_enabled = true
 shadow_bias = 0.005
@@ -695,24 +705,24 @@ use_in_sky_only = true
 script = null
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform( -1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.689, 17.1835, -100.829 )
+transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.689, 17.1835, -100.829)
 far = 500.0
-script = ExtResource( 2 )
+script = ExtResource( "2" )
 
 [node name="Water" type="MeshInstance3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -58.3403, 3.48442, -14.1366 )
-mesh = SubResource( 6 )
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.3403, 3.48442, -14.1366)
+mesh = SubResource( "6" )
 surface_material_override/0 = null
 script = null
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "water_move"
-anims/water_move = SubResource( 7 )
-blend_times = [  ]
+anims/water_move = SubResource( "7" )
+blend_times = []
 script = null
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = ExtResource( 3 )
+environment = ExtResource( "3" )
 script = null
 
 [node name="FPSLabel" type="Label" parent="."]
@@ -721,8 +731,8 @@ offset_top = 24.0
 offset_right = 195.0
 offset_bottom = 90.0
 custom_font_sizes/font_size = 20
-structured_text_bidi_override_options = [  ]
-script = ExtResource( 4 )
+structured_text_bidi_override_options = []
+script = ExtResource( "4" )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -735,7 +745,7 @@ offset_top = -49.0
 offset_right = 367.0
 offset_bottom = -16.0
 custom_constants/separation = 10
-script = ExtResource( 6 )
+script = ExtResource( "6" )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -746,7 +756,7 @@ offset_right = 81.0
 offset_bottom = 28.0
 custom_font_sizes/font_size = 14
 text = "Time of Day"
-structured_text_bidi_override_options = [  ]
+structured_text_bidi_override_options = []
 script = null
 
 [node name="HSlider" type="HSlider" parent="HBoxContainer"]
@@ -768,7 +778,7 @@ offset_top = 3.0
 offset_right = 351.0
 offset_bottom = 29.0
 text = "8:00"
-structured_text_bidi_override_options = [  ]
+structured_text_bidi_override_options = []
 script = null
 
 [connection signal="value_changed" from="HBoxContainer/HSlider" to="HBoxContainer" method="_on_HSlider_value_changed"]

@@ -1,0 +1,20 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://disvta3oj2d2b"]
+
+[ext_resource type="Texture2D" uid="uid://csuukr1g56hnv" path="res://ambientcg/Metal018_2K_Color.jpg" id="1_ixi3g"]
+[ext_resource type="Texture2D" uid="uid://15rcg8jcrslx" path="res://ambientcg/Metal018_2K_Displacement.jpg" id="2_13ubp"]
+[ext_resource type="Texture2D" uid="uid://dnwrweu13tut6" path="res://ambientcg/Metal018_2K_Metalness.jpg" id="3_ryctu"]
+[ext_resource type="Texture2D" uid="uid://bsc6s6fei3j5b" path="res://ambientcg/Metal018_2K_Normal.jpg" id="4_k0ffi"]
+[ext_resource type="Texture2D" uid="uid://dhfsser4add0u" path="res://ambientcg/Metal018_2K_Roughness.jpg" id="5_sat60"]
+
+[resource]
+albedo_color = Color(0.6, 0.525, 0.45, 1)
+albedo_texture = ExtResource( "1_ixi3g" )
+metallic = 1.0
+metallic_specular = 0.0
+metallic_texture = ExtResource( "3_ryctu" )
+roughness_texture = ExtResource( "5_sat60" )
+normal_enabled = true
+normal_texture = ExtResource( "4_k0ffi" )
+heightmap_texture = ExtResource( "2_13ubp" )
+uv1_scale = Vector3(0.5, 0.5, 1)
+texture_filter = 5

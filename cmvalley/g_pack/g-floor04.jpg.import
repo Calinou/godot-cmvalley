@@ -2,17 +2,18 @@
 
 importer="texture"
 type="StreamTexture2D"
+uid="uid://cqitr1np251vy"
 path.s3tc="res://.godot/imported/g-floor04.jpg-45a080f516b0a6ca37b224b2fe4b3ad8.s3tc.stex"
 path.etc2="res://.godot/imported/g-floor04.jpg-45a080f516b0a6ca37b224b2fe4b3ad8.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
+"imported_formats": ["s3tc", "etc2"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://cmvalley/g_pack/g-floor04.jpg"
-dest_files=[ "res://.godot/imported/g-floor04.jpg-45a080f516b0a6ca37b224b2fe4b3ad8.s3tc.stex", "res://.godot/imported/g-floor04.jpg-45a080f516b0a6ca37b224b2fe4b3ad8.etc2.stex" ]
+dest_files=["res://.godot/imported/g-floor04.jpg-45a080f516b0a6ca37b224b2fe4b3ad8.s3tc.stex", "res://.godot/imported/g-floor04.jpg-45a080f516b0a6ca37b224b2fe4b3ad8.etc2.stex"]
 
 [params]
 
@@ -29,7 +30,7 @@ roughness/mode=0
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/invert_color=false
+process/normal_map_invert_y=false
 process/HDR_as_SRGB=false
 process/size_limit=0
 detect_3d/compress_to=0

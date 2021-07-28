@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://bg0xc64ikqicr"]
+
+[ext_resource type="Texture2D" uid="uid://blhgoh7uvbvx" path="res://ambientcg/Bricks040_2K_Color.jpg" id="1_5ta0r"]
+[ext_resource type="Texture2D" uid="uid://bpmgnk1hilpey" path="res://ambientcg/Bricks040_2K_AmbientOcclusion.jpg" id="2_06ojx"]
+[ext_resource type="Texture2D" uid="uid://dt8jcmggvpxy8" path="res://ambientcg/Bricks040_2K_Displacement.jpg" id="3_ykpv0"]
+[ext_resource type="Texture2D" uid="uid://c0lqqr50hdln" path="res://ambientcg/Bricks040_2K_Normal.jpg" id="4_jfg5q"]
+[ext_resource type="Texture2D" uid="uid://dvbcc283efwyy" path="res://ambientcg/Bricks040_2K_Roughness.jpg" id="5_tbnek"]
+
+[resource]
+albedo_color = Color(0.75, 0.75, 0.75, 1)
+albedo_texture = ExtResource( "1_5ta0r" )
+roughness_texture = ExtResource( "5_tbnek" )
+normal_enabled = true
+normal_texture = ExtResource( "4_jfg5q" )
+ao_enabled = true
+ao_texture = ExtResource( "2_06ojx" )
+heightmap_texture = ExtResource( "3_ykpv0" )
+uv1_scale = Vector3(0.5, 0.5, 1)
+texture_filter = 5

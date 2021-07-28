@@ -1,0 +1,37 @@
+[remap]
+
+importer="texture"
+type="StreamTexture2D"
+uid="uid://cmqasptx8vkax"
+path.s3tc="res://.godot/imported/Rock029_2K_Normal.jpg-e994f274ff752e9ffdc27c9ec8dace7f.s3tc.stex"
+path.etc2="res://.godot/imported/Rock029_2K_Normal.jpg-e994f274ff752e9ffdc27c9ec8dace7f.etc2.stex"
+metadata={
+"imported_formats": ["s3tc", "etc2"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://ambientcg/Rock029_2K_Normal.jpg"
+dest_files=["res://.godot/imported/Rock029_2K_Normal.jpg-e994f274ff752e9ffdc27c9ec8dace7f.s3tc.stex", "res://.godot/imported/Rock029_2K_Normal.jpg-e994f274ff752e9ffdc27c9ec8dace7f.etc2.stex"]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/bptc_ldr=0
+compress/normal_map=1
+compress/channel_pack=0
+compress/streamed=false
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=1
+roughness/src_normal="res://ambientcg/Rock029_2K_Normal.jpg"
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=true
+process/HDR_as_SRGB=false
+process/size_limit=0
+detect_3d/compress_to=0
+svg/scale=1.0

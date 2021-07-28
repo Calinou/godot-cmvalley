@@ -2,17 +2,18 @@
 
 importer="texture"
 type="StreamTexture2D"
+uid="uid://dwfoow2ipytpd"
 path.s3tc="res://.godot/imported/plast07.jpg-a2ea54c328061b9ba3563df0b933d30e.s3tc.stex"
 path.etc2="res://.godot/imported/plast07.jpg-a2ea54c328061b9ba3563df0b933d30e.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
+"imported_formats": ["s3tc", "etc2"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://cmvalley/noctua/plast07.jpg"
-dest_files=[ "res://.godot/imported/plast07.jpg-a2ea54c328061b9ba3563df0b933d30e.s3tc.stex", "res://.godot/imported/plast07.jpg-a2ea54c328061b9ba3563df0b933d30e.etc2.stex" ]
+dest_files=["res://.godot/imported/plast07.jpg-a2ea54c328061b9ba3563df0b933d30e.s3tc.stex", "res://.godot/imported/plast07.jpg-a2ea54c328061b9ba3563df0b933d30e.etc2.stex"]
 
 [params]
 
@@ -29,7 +30,7 @@ roughness/mode=0
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/invert_color=false
+process/normal_map_invert_y=false
 process/HDR_as_SRGB=false
 process/size_limit=0
 detect_3d/compress_to=0

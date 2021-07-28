@@ -1,0 +1,23 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://cbtmaj1132em2"]
+
+[ext_resource type="Texture2D" uid="uid://nbbbn1f6tmoi" path="res://ambientcg/Bricks019_2K_Color.jpg" id="1_vgwx4"]
+[ext_resource type="Texture2D" uid="uid://b1ni374n0g724" path="res://ambientcg/Bricks019_2K_AmbientOcclusion.jpg" id="2_u52f6"]
+[ext_resource type="Texture2D" uid="uid://cjasycvi2npp0" path="res://ambientcg/Bricks019_2K_Displacement.jpg" id="3_xafg6"]
+[ext_resource type="Texture2D" uid="uid://c4fs168ojing4" path="res://ambientcg/Bricks019_2K_Normal.jpg" id="4_dxqwq"]
+[ext_resource type="Texture2D" uid="uid://dp5fbla12wxmy" path="res://ambientcg/Bricks019_2K_Roughness.jpg" id="5_3a0r0"]
+
+[resource]
+albedo_color = Color(0.7, 0.555333, 0.42, 1)
+albedo_texture = ExtResource( "1_vgwx4" )
+metallic_specular = 0.2
+roughness_texture = ExtResource( "5_3a0r0" )
+normal_enabled = true
+normal_texture = ExtResource( "4_dxqwq" )
+ao_enabled = true
+ao_texture = ExtResource( "2_u52f6" )
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource( "3_xafg6" )
+uv1_scale = Vector3(0.75, 0.5, 1)
+texture_filter = 5

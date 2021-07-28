@@ -2,17 +2,18 @@
 
 importer="texture"
 type="StreamTexture2D"
+uid="uid://dcsrd6rf0abdv"
 path.s3tc="res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.s3tc.stex"
 path.etc2="res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.etc2.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc2" ],
+"imported_formats": ["s3tc", "etc2"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://cmvalley/philipk/pk01_pan_floor02b_d.jpg"
-dest_files=[ "res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.s3tc.stex", "res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.etc2.stex" ]
+dest_files=["res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.s3tc.stex", "res://.godot/imported/pk01_pan_floor02b_d.jpg-dc75905d3f10f7be2dce55c9b30055ec.etc2.stex"]
 
 [params]
 
@@ -29,7 +30,7 @@ roughness/mode=0
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/invert_color=false
+process/normal_map_invert_y=false
 process/HDR_as_SRGB=false
 process/size_limit=0
 detect_3d/compress_to=0
