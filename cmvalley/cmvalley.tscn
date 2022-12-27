@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://0d28tfgpxbsg"]
+[gd_scene load_steps=23 format=3 uid="uid://0d28tfgpxbsg"]
 
 [ext_resource type="ArrayMesh" uid="uid://3wryepsgikd6" path="res://cmvalley/cmvalley.obj" id="1"]
 [ext_resource type="Script" path="res://camera.gd" id="2"]
@@ -17,37 +17,29 @@
 [ext_resource type="Material" uid="uid://cjef6tvwdnatj" path="res://ambientcg/Wood043.tres" id="9_3j8gu"]
 [ext_resource type="Material" uid="uid://nn2gturxrbpi" path="res://ambientcg/Rock029.tres" id="10_hdus6"]
 
-[sub_resource type="FastNoiseLite" id="1"]
-
-[sub_resource type="NoiseTexture2D" id="2"]
-seamless = true
-noise = SubResource("1")
-
 [sub_resource type="FastNoiseLite" id="3"]
 
 [sub_resource type="NoiseTexture2D" id="4"]
 seamless = true
+as_normal_map = true
 bump_strength = 4.0
 noise = SubResource("3")
 
 [sub_resource type="StandardMaterial3D" id="5"]
-albedo_color = Color(0.372549, 0.490196, 0.694118, 1)
+albedo_color = Color(0.384314, 0.54902, 0.505882, 1)
 metallic = 0.94
 roughness = 0.0
 normal_enabled = true
+normal_scale = 0.25
 normal_texture = SubResource("4")
 rim_enabled = true
 rim_tint = 1.0
 clearcoat_enabled = true
-heightmap_enabled = true
-heightmap_scale = 0.08
-heightmap_deep_parallax = true
-heightmap_min_layers = 8
-heightmap_max_layers = 32
-heightmap_texture = SubResource("2")
 uv1_scale = Vector3(16, 16, 16)
 uv1_offset = Vector3(0.25, 0.062, 0)
 texture_filter = 5
+distance_fade_mode = 2
+distance_fade_max_distance = 5.0
 
 [sub_resource type="PlaneMesh" id="6"]
 material = SubResource("5")
@@ -398,6 +390,7 @@ script = ExtResource("2")
 
 [node name="Water" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.3403, 3.48442, -14.1366)
+gi_mode = 0
 mesh = SubResource("6")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -425,6 +418,7 @@ offset_left = 16.0
 offset_top = -49.0
 offset_right = 367.0
 offset_bottom = -16.0
+grow_vertical = 0
 theme_override_constants/separation = 10
 script = ExtResource("6")
 
