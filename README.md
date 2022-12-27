@@ -3,7 +3,7 @@
 [![Screenshot of cm|Valley](https://raw.githubusercontent.com/Calinou/media/master/godot-cmvalley/screenshot-thumb.png)](https://raw.githubusercontent.com/Calinou/media/master/godot-cmvalley/screenshot.png)
 
 A port of [cm|Valley](http://quadropolis.us/node/4196) for testing Godot 4.0's new renderer.
-Uses SDFGI for global illumination in addition to volumetric fog.
+Uses SDFGI for global illumination.
 
 The OBJ and MTL files were sourced from [game-maps-obj](https://github.com/Calinou/game-maps-obj).
 

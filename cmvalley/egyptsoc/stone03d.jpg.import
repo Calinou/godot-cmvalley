@@ -1,10 +1,10 @@
 [remap]
 
 importer="texture"
-type="StreamTexture2D"
+type="CompressedTexture2D"
 uid="uid://b64sp5m6phplt"
-path.s3tc="res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.s3tc.stex"
-path.etc2="res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.etc2.stex"
+path.s3tc="res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.s3tc.ctex"
+path.etc2="res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc", "etc2"],
 "vram_texture": true
@@ -13,7 +13,7 @@ metadata={
 [deps]
 
 source_file="res://cmvalley/egyptsoc/stone03d.jpg"
-dest_files=["res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.s3tc.stex", "res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.etc2.stex"]
+dest_files=["res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.s3tc.ctex", "res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.etc2.ctex"]
 
 [params]
 
@@ -23,7 +23,6 @@ compress/hdr_compression=1
 compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
-compress/streamed=false
 mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
@@ -31,7 +30,7 @@ roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
-process/HDR_as_SRGB=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=0
-svg/scale=1.0

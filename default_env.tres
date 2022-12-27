@@ -4,21 +4,19 @@
 ground_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Sky" id="2"]
-sky_material = SubResource( "1" )
+sky_material = SubResource("1")
 
 [resource]
 background_mode = 2
-sky = SubResource( "2" )
+sky = SubResource("2")
 tonemap_mode = 2
 tonemap_white = 6.0
 ssao_enabled = true
 sdfgi_enabled = true
-sdfgi_use_occlusion = true
-sdfgi_read_sky_light = true
 sdfgi_bounce_feedback = 1.0
-sdfgi_cascades = 0
-sdfgi_min_cell_size = 0.8
-sdfgi_cascade0_distance = 51.2
+sdfgi_min_cell_size = 0.4
 sdfgi_y_scale = 2
-volumetric_fog_enabled = true
-volumetric_fog_density = 0.001
+sdfgi_energy = 4.0
+fog_enabled = true
+fog_density = 0.0005
+fog_sky_affect = 0.0

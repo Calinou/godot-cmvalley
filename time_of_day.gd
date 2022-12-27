@@ -16,12 +16,12 @@ func _ready() -> void:
 
 
 func _on_HSlider_value_changed(value: float) -> void:
-	sun.rotation_degrees.x = range_lerp(value, 0, 100, 130, -130)
+	sun.rotation_degrees.x = remap(value, 0, 100, 130, -130)
 	# Enable/disable sun/moon lights depending on time of day.
-	sun.use_in_sky_only = value <= 50
-	moon.use_in_sky_only = value >= 50
+	sun.sky_mode = DirectionalLight3D.SKY_MODE_SKY_ONLY if value <= 50 else DirectionalLight3D.SKY_MODE_LIGHT_AND_SKY
+	moon.sky_mode = DirectionalLight3D.SKY_MODE_SKY_ONLY if value >= 50 else DirectionalLight3D.SKY_MODE_LIGHT_AND_SKY
 	# Only enable lamps during night and early morning.
 	point_lights.visible = value <= 57.5
 
-	var minutes := int(range_lerp(value, 0, 100, 0, 900))
+	var minutes := int(remap(value, 0, 100, 0, 900))
 	time_label.text = "%2d:%02d" % [minutes / 60, minutes % 60]

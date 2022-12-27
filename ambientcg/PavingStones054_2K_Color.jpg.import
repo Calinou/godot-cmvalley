@@ -1,9 +1,9 @@
 [remap]
 
 importer="texture"
-type="StreamTexture2D"
+type="CompressedTexture2D"
 uid="uid://d4hy3l748e25x"
-path="res://.godot/imported/PavingStones054_2K_Color.jpg-4d3ed48455df5f2f01257cb79a2eb7a0.stex"
+path="res://.godot/imported/PavingStones054_2K_Color.jpg-4d3ed48455df5f2f01257cb79a2eb7a0.ctex"
 metadata={
 "vram_texture": false
 }
@@ -11,7 +11,7 @@ metadata={
 [deps]
 
 source_file="res://ambientcg/PavingStones054_2K_Color.jpg"
-dest_files=["res://.godot/imported/PavingStones054_2K_Color.jpg-4d3ed48455df5f2f01257cb79a2eb7a0.stex"]
+dest_files=["res://.godot/imported/PavingStones054_2K_Color.jpg-4d3ed48455df5f2f01257cb79a2eb7a0.ctex"]
 
 [params]
 
@@ -21,7 +21,6 @@ compress/hdr_compression=1
 compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
-compress/streamed=false
 mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
@@ -29,7 +28,7 @@ roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
-process/HDR_as_SRGB=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=0
-svg/scale=1.0
