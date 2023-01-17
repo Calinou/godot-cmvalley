@@ -26,6 +26,7 @@ bump_strength = 4.0
 noise = SubResource("3")
 
 [sub_resource type="StandardMaterial3D" id="5"]
+cull_mode = 2
 albedo_color = Color(0.384314, 0.54902, 0.505882, 1)
 metallic = 0.94
 roughness = 0.0
@@ -51,7 +52,7 @@ length = 30.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Water:mesh:material:uv1_offset")
+tracks/0/path = NodePath("WaterLow:mesh:material:uv1_offset")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -388,8 +389,18 @@ transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, 100.68
 far = 500.0
 script = ExtResource("2")
 
-[node name="Water" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.3403, 3.48442, -14.1366)
+[node name="WaterLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.3403, -8.51558, -14.1366)
+gi_mode = 0
+mesh = SubResource("6")
+
+[node name="WaterHigh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210.66, 3.48442, 4.8634)
+gi_mode = 0
+mesh = SubResource("6")
+
+[node name="Waterfall" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.68249e-10, -0.840045, -0.011, -9.84235e-10, 0.485, -0.0190526, 0.026, 3.67195e-08, -4.80825e-10, -48.1619, -1.34168, 3.02815)
 gi_mode = 0
 mesh = SubResource("6")
 
