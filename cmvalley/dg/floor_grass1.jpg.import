@@ -4,23 +4,22 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcsj2pg3pqite"
 path.s3tc="res://.godot/imported/floor_grass1.jpg-39fcb8e694240799b3516b95153b9dcc.s3tc.ctex"
-path.etc2="res://.godot/imported/floor_grass1.jpg-39fcb8e694240799b3516b95153b9dcc.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
+"imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://cmvalley/dg/floor_grass1.jpg"
-dest_files=["res://.godot/imported/floor_grass1.jpg-39fcb8e694240799b3516b95153b9dcc.s3tc.ctex", "res://.godot/imported/floor_grass1.jpg-39fcb8e694240799b3516b95153b9dcc.etc2.ctex"]
+dest_files=["res://.godot/imported/floor_grass1.jpg-39fcb8e694240799b3516b95153b9dcc.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true

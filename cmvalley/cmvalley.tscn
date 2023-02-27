@@ -37,7 +37,6 @@ rim_enabled = true
 rim_tint = 1.0
 clearcoat_enabled = true
 uv1_scale = Vector3(16, 16, 16)
-uv1_offset = Vector3(0.25, 0.062, 0)
 texture_filter = 5
 distance_fade_mode = 2
 distance_fade_max_distance = 5.0
@@ -49,6 +48,7 @@ size = Vector2(512, 512)
 [sub_resource type="Animation" id="7"]
 resource_name = "water_move"
 length = 30.0
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true

@@ -4,23 +4,22 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh36howepy5cx"
 path.s3tc="res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.s3tc.ctex"
-path.etc2="res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc", "etc2"],
+"imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://cmvalley/noctua/planks01.jpg"
-dest_files=["res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.s3tc.ctex", "res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.etc2.ctex"]
+dest_files=["res://.godot/imported/planks01.jpg-d95de66e700b46a8d70e7b3931b72719.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
