@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckuptnqkk7bh1"
-path.s3tc="res://.godot/imported/ik_brick_12864a.jpg-cdf18fd16c7a7448b58d90440155abc8.s3tc.ctex"
+path="res://.godot/imported/ik_brick_12864a.jpg-cdf18fd16c7a7448b58d90440155abc8.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/ik2k/ik_brick_12864a.jpg"
-dest_files=["res://.godot/imported/ik_brick_12864a.jpg-cdf18fd16c7a7448b58d90440155abc8.s3tc.ctex"]
+dest_files=["res://.godot/imported/ik_brick_12864a.jpg-cdf18fd16c7a7448b58d90440155abc8.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

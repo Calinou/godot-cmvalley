@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dujhmb4kmab74"
-path.s3tc="res://.godot/imported/floor_pavingStone_ceramic.jpg-6dc14b53281ee2d26909dbbde5611311.s3tc.ctex"
+path="res://.godot/imported/floor_pavingStone_ceramic.jpg-6dc14b53281ee2d26909dbbde5611311.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/dg/floor_pavingStone_ceramic.jpg"
-dest_files=["res://.godot/imported/floor_pavingStone_ceramic.jpg-6dc14b53281ee2d26909dbbde5611311.s3tc.ctex"]
+dest_files=["res://.godot/imported/floor_pavingStone_ceramic.jpg-6dc14b53281ee2d26909dbbde5611311.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

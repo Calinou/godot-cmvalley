@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvqli7o5ckgh1"
-path.s3tc="res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.s3tc.ctex"
+path="res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/textures/nieb/rock02.jpg"
-dest_files=["res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.s3tc.ctex"]
+dest_files=["res://.godot/imported/rock02.jpg-9a17aaf37d390451e519438988f7f293.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

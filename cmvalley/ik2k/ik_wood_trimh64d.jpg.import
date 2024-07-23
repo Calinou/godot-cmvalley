@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b80b4c22bugv3"
-path.s3tc="res://.godot/imported/ik_wood_trimh64d.jpg-641b808a503dc2839387bea276b66843.s3tc.ctex"
+path="res://.godot/imported/ik_wood_trimh64d.jpg-641b808a503dc2839387bea276b66843.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/ik2k/ik_wood_trimh64d.jpg"
-dest_files=["res://.godot/imported/ik_wood_trimh64d.jpg-641b808a503dc2839387bea276b66843.s3tc.ctex"]
+dest_files=["res://.godot/imported/ik_wood_trimh64d.jpg-641b808a503dc2839387bea276b66843.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

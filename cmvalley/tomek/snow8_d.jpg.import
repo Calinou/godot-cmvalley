@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gotrdaluburt"
-path.s3tc="res://.godot/imported/snow8_d.jpg-2a346e491028ca831d2a8f4c7c63ac99.s3tc.ctex"
+path="res://.godot/imported/snow8_d.jpg-2a346e491028ca831d2a8f4c7c63ac99.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/tomek/snow8_d.jpg"
-dest_files=["res://.godot/imported/snow8_d.jpg-2a346e491028ca831d2a8f4c7c63ac99.s3tc.ctex"]
+dest_files=["res://.godot/imported/snow8_d.jpg-2a346e491028ca831d2a8f4c7c63ac99.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

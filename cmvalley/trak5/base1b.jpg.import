@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chf0cdpef2y0x"
-path.s3tc="res://.godot/imported/base1b.jpg-8d837755bb1c6f5470162c045266a014.s3tc.ctex"
+path="res://.godot/imported/base1b.jpg-8d837755bb1c6f5470162c045266a014.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/trak5/base1b.jpg"
-dest_files=["res://.godot/imported/base1b.jpg-8d837755bb1c6f5470162c045266a014.s3tc.ctex"]
+dest_files=["res://.godot/imported/base1b.jpg-8d837755bb1c6f5470162c045266a014.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

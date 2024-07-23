@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbn5mvwi85f6n"
-path.s3tc="res://.godot/imported/wood_crate_05.jpg-ae2100264e3ac3bb4660ec0d0cdc9461.s3tc.ctex"
+path="res://.godot/imported/wood_crate_05.jpg-ae2100264e3ac3bb4660ec0d0cdc9461.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/subverse/wood_crate_05.jpg"
-dest_files=["res://.godot/imported/wood_crate_05.jpg-ae2100264e3ac3bb4660ec0d0cdc9461.s3tc.ctex"]
+dest_files=["res://.godot/imported/wood_crate_05.jpg-ae2100264e3ac3bb4660ec0d0cdc9461.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

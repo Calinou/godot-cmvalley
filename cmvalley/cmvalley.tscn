@@ -92,7 +92,6 @@ surface_material_override/186 = ExtResource("7_7tkwe")
 surface_material_override/227 = ExtResource("7_7tkwe")
 surface_material_override/229 = ExtResource("7_7tkwe")
 surface_material_override/230 = ExtResource("7_7tkwe")
-surface_material_override/264 = ExtResource("7_7tkwe")
 script = ExtResource("5")
 
 [node name="PointLights" type="Node3D" parent="."]
@@ -405,10 +404,10 @@ gi_mode = 0
 mesh = SubResource("6")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "water_move"
 libraries = {
 "": SubResource("AnimationLibrary_tyr0f")
 }
+autoplay = "water_move"
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("3")

@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0ttlowsddtvs"
-path.s3tc="res://.godot/imported/mm-metaltrim02.jpg-bf25b6e75954204ef6c555ad7f3000aa.s3tc.ctex"
+path="res://.godot/imported/mm-metaltrim02.jpg-bf25b6e75954204ef6c555ad7f3000aa.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-metaltrim02.jpg"
-dest_files=["res://.godot/imported/mm-metaltrim02.jpg-bf25b6e75954204ef6c555ad7f3000aa.s3tc.ctex"]
+dest_files=["res://.godot/imported/mm-metaltrim02.jpg-bf25b6e75954204ef6c555ad7f3000aa.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

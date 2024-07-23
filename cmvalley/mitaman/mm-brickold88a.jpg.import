@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crfa7nogi84uq"
-path.s3tc="res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.s3tc.ctex"
+path="res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-brickold88a.jpg"
-dest_files=["res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.s3tc.ctex"]
+dest_files=["res://.godot/imported/mm-brickold88a.jpg-6260ea0684d32ca2e58a80892882d15f.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

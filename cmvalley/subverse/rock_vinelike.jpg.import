@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmt2jx06nr22c"
-path.s3tc="res://.godot/imported/rock_vinelike.jpg-d6f97627066c7142a39b6c03557c9e49.s3tc.ctex"
+path="res://.godot/imported/rock_vinelike.jpg-d6f97627066c7142a39b6c03557c9e49.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/subverse/rock_vinelike.jpg"
-dest_files=["res://.godot/imported/rock_vinelike.jpg-d6f97627066c7142a39b6c03557c9e49.s3tc.ctex"]
+dest_files=["res://.godot/imported/rock_vinelike.jpg-d6f97627066c7142a39b6c03557c9e49.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

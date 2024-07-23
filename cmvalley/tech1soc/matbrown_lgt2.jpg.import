@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cokvrofe2xq0"
-path.s3tc="res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.s3tc.ctex"
+path="res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/tech1soc/matbrown_lgt2.jpg"
-dest_files=["res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.s3tc.ctex"]
+dest_files=["res://.godot/imported/matbrown_lgt2.jpg-6a6e3e749316289200d7fd268f28911c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

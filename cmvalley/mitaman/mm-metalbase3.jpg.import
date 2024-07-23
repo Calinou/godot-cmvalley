@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ljg7u42bqmmt"
-path.s3tc="res://.godot/imported/mm-metalbase3.jpg-316e874ae0f92f7ff84c35a5b727090c.s3tc.ctex"
+path="res://.godot/imported/mm-metalbase3.jpg-316e874ae0f92f7ff84c35a5b727090c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-metalbase3.jpg"
-dest_files=["res://.godot/imported/mm-metalbase3.jpg-316e874ae0f92f7ff84c35a5b727090c.s3tc.ctex"]
+dest_files=["res://.godot/imported/mm-metalbase3.jpg-316e874ae0f92f7ff84c35a5b727090c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

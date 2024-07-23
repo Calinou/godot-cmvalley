@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n08c3snmqn3x"
-path.s3tc="res://.godot/imported/floor_pavement_stone4_2.jpg-1daaf5b5ad7533cc5e4f52b111196b47.s3tc.ctex"
+path="res://.godot/imported/floor_pavement_stone4_2.jpg-1daaf5b5ad7533cc5e4f52b111196b47.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/dg/floor_pavement_stone4_2.jpg"
-dest_files=["res://.godot/imported/floor_pavement_stone4_2.jpg-1daaf5b5ad7533cc5e4f52b111196b47.s3tc.ctex"]
+dest_files=["res://.godot/imported/floor_pavement_stone4_2.jpg-1daaf5b5ad7533cc5e4f52b111196b47.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

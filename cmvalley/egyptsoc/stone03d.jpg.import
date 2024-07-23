@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b64sp5m6phplt"
-path.s3tc="res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.s3tc.ctex"
+path="res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/egyptsoc/stone03d.jpg"
-dest_files=["res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.s3tc.ctex"]
+dest_files=["res://.godot/imported/stone03d.jpg-a7d7ded6e090a8514d6f76565686df3a.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

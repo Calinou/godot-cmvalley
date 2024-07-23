@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4eouqks0b71x"
-path.s3tc="res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.s3tc.ctex"
+path="res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-stoneroof1.jpg"
-dest_files=["res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.s3tc.ctex"]
+dest_files=["res://.godot/imported/mm-stoneroof1.jpg-8b4c45fd46e0e6e274fb036a6c311ade.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

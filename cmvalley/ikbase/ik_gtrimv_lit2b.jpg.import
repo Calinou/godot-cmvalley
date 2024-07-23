@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1g1ikhb3o4ed"
-path.s3tc="res://.godot/imported/ik_gtrimv_lit2b.jpg-9c3303c2add431d3b80ab5bd8afeeeb9.s3tc.ctex"
+path="res://.godot/imported/ik_gtrimv_lit2b.jpg-9c3303c2add431d3b80ab5bd8afeeeb9.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/ikbase/ik_gtrimv_lit2b.jpg"
-dest_files=["res://.godot/imported/ik_gtrimv_lit2b.jpg-9c3303c2add431d3b80ab5bd8afeeeb9.s3tc.ctex"]
+dest_files=["res://.godot/imported/ik_gtrimv_lit2b.jpg-9c3303c2add431d3b80ab5bd8afeeeb9.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

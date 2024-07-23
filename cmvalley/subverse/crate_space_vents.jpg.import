@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj8pbiidgmu3e"
-path.s3tc="res://.godot/imported/crate_space_vents.jpg-73a7b161718b909cfe3a49d86f9a1bfd.s3tc.ctex"
+path="res://.godot/imported/crate_space_vents.jpg-73a7b161718b909cfe3a49d86f9a1bfd.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/subverse/crate_space_vents.jpg"
-dest_files=["res://.godot/imported/crate_space_vents.jpg-73a7b161718b909cfe3a49d86f9a1bfd.s3tc.ctex"]
+dest_files=["res://.godot/imported/crate_space_vents.jpg-73a7b161718b909cfe3a49d86f9a1bfd.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

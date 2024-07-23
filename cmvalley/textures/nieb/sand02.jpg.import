@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn7mifptd6fvc"
-path.s3tc="res://.godot/imported/sand02.jpg-f2af1c81d3d182788ec583a9a28c553c.s3tc.ctex"
+path="res://.godot/imported/sand02.jpg-f2af1c81d3d182788ec583a9a28c553c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/textures/nieb/sand02.jpg"
-dest_files=["res://.godot/imported/sand02.jpg-f2af1c81d3d182788ec583a9a28c553c.s3tc.ctex"]
+dest_files=["res://.godot/imported/sand02.jpg-f2af1c81d3d182788ec583a9a28c553c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

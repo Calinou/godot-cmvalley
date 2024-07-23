@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lsds6s2cx72s"
-path.s3tc="res://.godot/imported/GR_GK_007_cc.jpg-680d29fbe255d224618b0a62a5c6409c.s3tc.ctex"
+path="res://.godot/imported/GR_GK_007_cc.jpg-680d29fbe255d224618b0a62a5c6409c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/gor/GR_GK_007_cc.jpg"
-dest_files=["res://.godot/imported/GR_GK_007_cc.jpg-680d29fbe255d224618b0a62a5c6409c.s3tc.ctex"]
+dest_files=["res://.godot/imported/GR_GK_007_cc.jpg-680d29fbe255d224618b0a62a5c6409c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

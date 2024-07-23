@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ks6iyqgmwo1i"
-path.s3tc="res://.godot/imported/ik_cwall03a2.jpg-d3f5a9ce069b19a0873af27dfccfb515.s3tc.ctex"
+path="res://.godot/imported/ik_cwall03a2.jpg-d3f5a9ce069b19a0873af27dfccfb515.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/ikbase/ik_cwall03a2.jpg"
-dest_files=["res://.godot/imported/ik_cwall03a2.jpg-d3f5a9ce069b19a0873af27dfccfb515.s3tc.ctex"]
+dest_files=["res://.godot/imported/ik_cwall03a2.jpg-d3f5a9ce069b19a0873af27dfccfb515.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

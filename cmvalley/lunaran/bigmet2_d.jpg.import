@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjb3npcs1gobf"
-path.s3tc="res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.s3tc.ctex"
+path="res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/lunaran/bigmet2_d.jpg"
-dest_files=["res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.s3tc.ctex"]
+dest_files=["res://.godot/imported/bigmet2_d.jpg-76d8d171444f2210d77d7c1bd9dcde30.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpmak1i3pk5g7"
-path.s3tc="res://.godot/imported/pipe1c.jpg-cdcc7897c4812b070525a051c6e83214.s3tc.ctex"
+path="res://.godot/imported/pipe1c.jpg-cdcc7897c4812b070525a051c6e83214.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/trak5/pipe1c.jpg"
-dest_files=["res://.godot/imported/pipe1c.jpg-cdcc7897c4812b070525a051c6e83214.s3tc.ctex"]
+dest_files=["res://.godot/imported/pipe1c.jpg-cdcc7897c4812b070525a051c6e83214.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

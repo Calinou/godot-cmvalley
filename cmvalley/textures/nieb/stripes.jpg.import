@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://emm1x47x6kcx"
-path.s3tc="res://.godot/imported/stripes.jpg-e544a7b99b27a629313f443859e826bb.s3tc.ctex"
+path="res://.godot/imported/stripes.jpg-e544a7b99b27a629313f443859e826bb.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/textures/nieb/stripes.jpg"
-dest_files=["res://.godot/imported/stripes.jpg-e544a7b99b27a629313f443859e826bb.s3tc.ctex"]
+dest_files=["res://.godot/imported/stripes.jpg-e544a7b99b27a629313f443859e826bb.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

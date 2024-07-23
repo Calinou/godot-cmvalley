@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d11r5x3n2vtje"
-path.s3tc="res://.godot/imported/mm-tile38.jpg-823cff21d4c36b704e2814c9d0a21fdd.s3tc.ctex"
+path="res://.godot/imported/mm-tile38.jpg-823cff21d4c36b704e2814c9d0a21fdd.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/mitaman/mm-tile38.jpg"
-dest_files=["res://.godot/imported/mm-tile38.jpg-823cff21d4c36b704e2814c9d0a21fdd.s3tc.ctex"]
+dest_files=["res://.godot/imported/mm-tile38.jpg-823cff21d4c36b704e2814c9d0a21fdd.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

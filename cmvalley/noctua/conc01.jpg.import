@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1ojsm6pfskta"
-path.s3tc="res://.godot/imported/conc01.jpg-5dae71bf9656eaf7b168d30860f06a62.s3tc.ctex"
+path="res://.godot/imported/conc01.jpg-5dae71bf9656eaf7b168d30860f06a62.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/noctua/conc01.jpg"
-dest_files=["res://.godot/imported/conc01.jpg-5dae71bf9656eaf7b168d30860f06a62.s3tc.ctex"]
+dest_files=["res://.godot/imported/conc01.jpg-5dae71bf9656eaf7b168d30860f06a62.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdhleoxqpr5yb"
-path.s3tc="res://.godot/imported/floor_paving_littleStones3_2.jpg-d1ac77e2bf2add906fc4c01c831184dc.s3tc.ctex"
+path="res://.godot/imported/floor_paving_littleStones3_2.jpg-d1ac77e2bf2add906fc4c01c831184dc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/dg/floor_paving_littleStones3_2.jpg"
-dest_files=["res://.godot/imported/floor_paving_littleStones3_2.jpg-d1ac77e2bf2add906fc4c01c831184dc.s3tc.ctex"]
+dest_files=["res://.godot/imported/floor_paving_littleStones3_2.jpg-d1ac77e2bf2add906fc4c01c831184dc.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

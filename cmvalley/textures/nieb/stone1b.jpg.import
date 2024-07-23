@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cetjtxvakgrfr"
-path.s3tc="res://.godot/imported/stone1b.jpg-acedf24e233c2e69b356214350e3ebef.s3tc.ctex"
+path="res://.godot/imported/stone1b.jpg-acedf24e233c2e69b356214350e3ebef.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/textures/nieb/stone1b.jpg"
-dest_files=["res://.godot/imported/stone1b.jpg-acedf24e233c2e69b356214350e3ebef.s3tc.ctex"]
+dest_files=["res://.godot/imported/stone1b.jpg-acedf24e233c2e69b356214350e3ebef.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

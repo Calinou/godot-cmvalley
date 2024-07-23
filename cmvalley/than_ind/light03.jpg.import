@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjis6dvugxqrq"
-path.s3tc="res://.godot/imported/light03.jpg-b7f269e4d87e9b4ed4cb390f846aeabc.s3tc.ctex"
+path="res://.godot/imported/light03.jpg-b7f269e4d87e9b4ed4cb390f846aeabc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/than_ind/light03.jpg"
-dest_files=["res://.godot/imported/light03.jpg-b7f269e4d87e9b4ed4cb390f846aeabc.s3tc.ctex"]
+dest_files=["res://.godot/imported/light03.jpg-b7f269e4d87e9b4ed4cb390f846aeabc.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1jr3jlvah2tc"
-path.s3tc="res://.godot/imported/pits1a.jpg-22c9b6e5bd6a2e2e64b888d5e6819f61.s3tc.ctex"
+path="res://.godot/imported/pits1a.jpg-22c9b6e5bd6a2e2e64b888d5e6819f61.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/trak5/pits1a.jpg"
-dest_files=["res://.godot/imported/pits1a.jpg-22c9b6e5bd6a2e2e64b888d5e6819f61.s3tc.ctex"]
+dest_files=["res://.godot/imported/pits1a.jpg-22c9b6e5bd6a2e2e64b888d5e6819f61.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

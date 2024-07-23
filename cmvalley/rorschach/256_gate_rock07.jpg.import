@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw6c13pri1nbc"
-path.s3tc="res://.godot/imported/256_gate_rock07.jpg-f0adccc438a3d153aa77e65935597980.s3tc.ctex"
+path="res://.godot/imported/256_gate_rock07.jpg-f0adccc438a3d153aa77e65935597980.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/rorschach/256_gate_rock07.jpg"
-dest_files=["res://.godot/imported/256_gate_rock07.jpg-f0adccc438a3d153aa77e65935597980.s3tc.ctex"]
+dest_files=["res://.godot/imported/256_gate_rock07.jpg-f0adccc438a3d153aa77e65935597980.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0kcnm7vwjpob"
-path.s3tc="res://.godot/imported/g-metbas5b.jpg-f0854e969a3a3a57e041ea3db711656f.s3tc.ctex"
+path="res://.godot/imported/g-metbas5b.jpg-f0854e969a3a3a57e041ea3db711656f.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/g_pack/g-metbas5b.jpg"
-dest_files=["res://.godot/imported/g-metbas5b.jpg-f0854e969a3a3a57e041ea3db711656f.s3tc.ctex"]
+dest_files=["res://.godot/imported/g-metbas5b.jpg-f0854e969a3a3a57e041ea3db711656f.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

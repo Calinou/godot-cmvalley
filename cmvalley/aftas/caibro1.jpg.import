@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvaeijxmtjewj"
-path.s3tc="res://.godot/imported/caibro1.jpg-7b8f1fd692628b8fef4b4662a052312d.s3tc.ctex"
+path="res://.godot/imported/caibro1.jpg-7b8f1fd692628b8fef4b4662a052312d.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/aftas/caibro1.jpg"
-dest_files=["res://.godot/imported/caibro1.jpg-7b8f1fd692628b8fef4b4662a052312d.s3tc.ctex"]
+dest_files=["res://.godot/imported/caibro1.jpg-7b8f1fd692628b8fef4b4662a052312d.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n2n5mxhw0acn"
-path.s3tc="res://.godot/imported/floor1.jpg-6b4902a5309e030d5e8ceb74e2c10348.s3tc.ctex"
+path="res://.godot/imported/floor1.jpg-6b4902a5309e030d5e8ceb74e2c10348.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/textures/nieb/floor1.jpg"
-dest_files=["res://.godot/imported/floor1.jpg-6b4902a5309e030d5e8ceb74e2c10348.s3tc.ctex"]
+dest_files=["res://.godot/imported/floor1.jpg-6b4902a5309e030d5e8ceb74e2c10348.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

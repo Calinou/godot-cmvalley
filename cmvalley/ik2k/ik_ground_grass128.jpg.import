@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7ia2beoii3om"
-path.s3tc="res://.godot/imported/ik_ground_grass128.jpg-2a77386d0b769eaca4345a88747bf396.s3tc.ctex"
+path="res://.godot/imported/ik_ground_grass128.jpg-2a77386d0b769eaca4345a88747bf396.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/ik2k/ik_ground_grass128.jpg"
-dest_files=["res://.godot/imported/ik_ground_grass128.jpg-2a77386d0b769eaca4345a88747bf396.s3tc.ctex"]
+dest_files=["res://.godot/imported/ik_ground_grass128.jpg-2a77386d0b769eaca4345a88747bf396.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

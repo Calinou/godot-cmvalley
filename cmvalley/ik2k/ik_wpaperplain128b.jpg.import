@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7c4g8bce4q6a"
-path.s3tc="res://.godot/imported/ik_wpaperplain128b.jpg-e735c476e2499790342a2f67ae9ebe17.s3tc.ctex"
+path="res://.godot/imported/ik_wpaperplain128b.jpg-e735c476e2499790342a2f67ae9ebe17.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/ik2k/ik_wpaperplain128b.jpg"
-dest_files=["res://.godot/imported/ik_wpaperplain128b.jpg-e735c476e2499790342a2f67ae9ebe17.s3tc.ctex"]
+dest_files=["res://.godot/imported/ik_wpaperplain128b.jpg-e735c476e2499790342a2f67ae9ebe17.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

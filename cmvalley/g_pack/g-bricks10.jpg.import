@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyebxrq8y42mb"
-path.s3tc="res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.s3tc.ctex"
+path="res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/g_pack/g-bricks10.jpg"
-dest_files=["res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.s3tc.ctex"]
+dest_files=["res://.godot/imported/g-bricks10.jpg-ac32d370505ea2e8ea9cfdeeb37a867f.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

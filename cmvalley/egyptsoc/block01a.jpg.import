@@ -3,20 +3,19 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://opsl54d2wyi4"
-path.s3tc="res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.s3tc.ctex"
+path="res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://cmvalley/egyptsoc/block01a.jpg"
-dest_files=["res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.s3tc.ctex"]
+dest_files=["res://.godot/imported/block01a.jpg-e1fbcc3b646b665da6ff3170e8b0b069.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
