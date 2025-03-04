@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/Planks012_2K_AmbientOcclusion.jpg-48390c92c31
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

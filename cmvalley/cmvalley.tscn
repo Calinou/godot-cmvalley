@@ -1,15 +1,15 @@
 [gd_scene load_steps=23 format=3 uid="uid://0d28tfgpxbsg"]
 
 [ext_resource type="ArrayMesh" uid="uid://3wryepsgikd6" path="res://cmvalley/cmvalley.obj" id="1"]
-[ext_resource type="Script" path="res://camera.gd" id="2"]
+[ext_resource type="Script" uid="uid://dv12pa6ny7yjn" path="res://camera.gd" id="2"]
 [ext_resource type="Material" uid="uid://bibmtdkaj8jx3" path="res://ambientcg/Grass004.tres" id="2_t43nn"]
 [ext_resource type="Environment" uid="uid://35eqdcv41b5c" path="res://default_env.tres" id="3"]
 [ext_resource type="Material" uid="uid://cbtmaj1132em2" path="res://ambientcg/Bricks019.tres" id="3_wqybs"]
-[ext_resource type="Script" path="res://fps_label.gd" id="4"]
+[ext_resource type="Script" uid="uid://348d1s52atno" path="res://fps_label.gd" id="4"]
 [ext_resource type="Material" uid="uid://cod4218l7g6xr" path="res://ambientcg/Bricks019_gray.tres" id="4_s8wlb"]
-[ext_resource type="Script" path="res://cmvalley/cmvalley.gd" id="5"]
+[ext_resource type="Script" uid="uid://bfiwhpkefsc3p" path="res://cmvalley/cmvalley.gd" id="5"]
 [ext_resource type="Material" uid="uid://disvta3oj2d2b" path="res://ambientcg/Metal018.tres" id="5_knq4g"]
-[ext_resource type="Script" path="res://time_of_day.gd" id="6"]
+[ext_resource type="Script" uid="uid://br820h1lys07j" path="res://time_of_day.gd" id="6"]
 [ext_resource type="Material" uid="uid://i2tayosb2t4y" path="res://ambientcg/PavingStones054.tres" id="6_xas2b"]
 [ext_resource type="Material" uid="uid://cxm6hbgg2uoqe" path="res://ambientcg/Rock030.tres" id="7_7tkwe"]
 [ext_resource type="Material" uid="uid://0m5miasw4dhu" path="res://ambientcg/Rock022.tres" id="8_st4ib"]
@@ -64,7 +64,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tyr0f"]
 _data = {
-"water_move": SubResource("7")
+&"water_move": SubResource("7")
 }
 
 [node name="Node3D" type="Node3D"]
@@ -405,7 +405,7 @@ mesh = SubResource("6")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_tyr0f")
+&"": SubResource("AnimationLibrary_tyr0f")
 }
 autoplay = "water_move"
 

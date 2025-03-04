@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/Snow002_2K_Normal.jpg-2d5c4716ba03504a4c4f951
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

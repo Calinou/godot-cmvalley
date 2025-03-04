@@ -16,6 +16,10 @@ dest_files=["res://.godot/imported/cmvalley.obj-4674d0e13bb9620bb113843c48f87525
 [params]
 
 generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
 scale_mesh=Vector3(0.1, 0.1, 0.1)
 offset_mesh=Vector3(0, 0, 0)
-optimize_mesh=true
+force_disable_mesh_compression=false
