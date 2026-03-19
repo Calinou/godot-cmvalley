@@ -1,4 +1,4 @@
-[gd_resource type="Environment" load_steps=3 format=3 uid="uid://35eqdcv41b5c"]
+[gd_resource type="Environment" format=3 uid="uid://35eqdcv41b5c"]
 
 [sub_resource type="PhysicalSkyMaterial" id="1"]
 ground_color = Color(0, 0, 0, 1)
